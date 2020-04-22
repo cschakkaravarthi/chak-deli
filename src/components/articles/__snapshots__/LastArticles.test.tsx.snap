@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Las articles render properly renders correctly 1`] = `
+<ForwardRef
+  noGutters={false}
+>
+  <ForwardRef
+    md="4"
+    xl="6"
+  >
+    <Unknown
+      MainLink={[Function]}
+      date="June 20, 2019"
+      imageUrl="undefined"
+      title="Zeppelin"
+      type="article"
+    />
+  </ForwardRef>
+  <ForwardRef
+    md="4"
+    xl="6"
+  >
+    <Unknown
+      MainLink={[Function]}
+      date="June 20, 2019"
+      imageUrl="undefined"
+      title="Floyd"
+      type="article"
+    />
+  </ForwardRef>
+  <ForwardRef
+    md="4"
+    xl="6"
+  >
+    <Unknown
+      MainLink={[Function]}
+      date="June 20, 2019"
+      imageUrl="undefined"
+      title="Hendrix"
+      type="article"
+    />
+  </ForwardRef>
+</ForwardRef>
+`;

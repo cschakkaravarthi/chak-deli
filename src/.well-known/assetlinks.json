@@ -1,0 +1,8 @@
+[{
+	"relation": ["delegate_permission/common.handle_all_urls"],
+	"target": {
+		"namespace": "android_app",
+		"package_name": "com.umusic.umgcentral",
+		"sha256_cert_fingerprints": ["65:5E:D8:10:31:72:65:8A:32:56:4F:3A:2C:E8:28:25:FD:BA:E4:22:1F:B3:79:41:AD:D9:B4:FE:64:CD:7E:72"]
+	}
+}]

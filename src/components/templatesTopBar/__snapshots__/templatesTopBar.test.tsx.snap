@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplatesTopBar renders a top bar for department 1`] = `
+<React.Fragment>
+  <Unknown
+    bannerSrc="s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg"
+    logoSrc="test-file-stub"
+  />
+  <ForwardRef
+    fluid={false}
+  >
+    <Unknown
+      bodyText="body Lorem ipsum dolor summary"
+      sectionImageSrc="s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg"
+      title="Finance"
+    />
+  </ForwardRef>
+</React.Fragment>
+`;
+
+exports[`TemplatesTopBar renders a top bar for labels 1`] = `
+<React.Fragment>
+  <Unknown
+    bannerSrc="s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg"
+    logoSrc="test-file-stub"
+  />
+  <ForwardRef
+    fluid={false}
+  >
+    <Unknown
+      bodyText="body Lorem ipsum dolor summary"
+      sectionImageSrc="s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg"
+      title="Finance"
+    />
+  </ForwardRef>
+</React.Fragment>
+`;

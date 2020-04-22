@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyContacts component renders null without contacts 1`] = `null`;
+
+exports[`MyContacts component renders properly with info 1`] = `
+<ForwardRef
+  noGutters={false}
+>
+  <ForwardRef
+    className="mb-5 h-100"
+  >
+    <Unknown
+      isFetching={false}
+      title="My Contacts"
+      titleClass="text-upper font-size-md mb-4"
+      topBorder="darkTurquoise"
+      wrapperClass="h-100"
+    >
+      <React.Fragment>
+        <ForwardRef
+          className="pr-2"
+          noGutters={false}
+        >
+          <ForwardRef
+            className="pb-3 pr-1"
+            lg="4"
+            md="6"
+            sm="12"
+          >
+            <Unknown
+              LinkToProfile={[Function]}
+              contactPic="stringstring.iix"
+              email="string"
+              handleClick={[Function]}
+              isCurrentUser={false}
+              mobile="string"
+              office="string"
+              title="string"
+              type="contactMe"
+              variant="profile"
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </React.Fragment>
+    </Unknown>
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`MyContacts component renders skeletons 1`] = `
+<ForwardRef
+  noGutters={false}
+>
+  <ForwardRef
+    className="mb-5 h-100"
+  >
+    <Unknown
+      isFetching={true}
+      title="My Contacts"
+      titleClass="text-upper font-size-md mb-4"
+      topBorder="darkTurquoise"
+      wrapperClass="h-100"
+    >
+      <React.Fragment>
+        <ForwardRef
+          className="pr-2"
+          noGutters={false}
+        >
+          <ForwardRef
+            className="pb-3 pr-1"
+            lg="4"
+            md="6"
+            sm="12"
+          >
+            <Unknown
+              isCurrentUser={false}
+              isFetching={true}
+              title=""
+              type="contactMe"
+              variant="profile"
+            />
+          </ForwardRef>
+          <ForwardRef
+            className="pb-3 pr-1"
+            lg="4"
+            md="6"
+            sm="12"
+          >
+            <Unknown
+              isCurrentUser={false}
+              isFetching={true}
+              title=""
+              type="contactMe"
+              variant="profile"
+            />
+          </ForwardRef>
+          <ForwardRef
+            className="pb-3 pr-1"
+            lg="4"
+            md="6"
+            sm="12"
+          >
+            <Unknown
+              isCurrentUser={false}
+              isFetching={true}
+              title=""
+              type="contactMe"
+              variant="profile"
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </React.Fragment>
+    </Unknown>
+  </ForwardRef>
+</ForwardRef>
+`;

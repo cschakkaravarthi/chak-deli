@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetFilterType for search result renders correctly 1`] = `
+<React.Fragment>
+  <strong>
+    News
+  </strong>
+</React.Fragment>
+`;

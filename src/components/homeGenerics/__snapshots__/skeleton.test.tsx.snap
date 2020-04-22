@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeGenericSkeleton renders properly 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    bannerSrc=""
+    isFetching={true}
+    logoSrc=""
+  />
+  <ForwardRef
+    fluid={false}
+  >
+    <ForwardRef
+      noGutters={false}
+    >
+      <ForwardRef
+        className="my-3 d-none d-xl-block"
+        xl="12"
+      >
+        <Unknown
+          isFetching={true}
+          pictureSkeletonHeight={300}
+          title=""
+          type="article"
+          variant="featured"
+        />
+      </ForwardRef>
+    </ForwardRef>
+    <ForwardRef
+      noGutters={false}
+    >
+      <ForwardRef
+        className="my-3"
+        xl="6"
+      >
+        <ForwardRef
+          className="h-100"
+          noGutters={false}
+        >
+          <ForwardRef
+            className="d-xl-none"
+            md="4"
+            xl="12"
+          >
+            <Unknown
+              isFetching={true}
+              title=""
+              type="article"
+              variant="featured"
+            />
+          </ForwardRef>
+          <ForwardRef
+            md="4"
+            xl="6"
+          >
+            <Unknown
+              isFetching={true}
+              title=""
+              type="article"
+            />
+          </ForwardRef>
+          <ForwardRef
+            md="4"
+            xl="6"
+          >
+            <Unknown
+              isFetching={true}
+              title=""
+              type="article"
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+      <ForwardRef
+        className="my-3"
+        xl="6"
+      >
+        <Unknown
+          events={Array []}
+          isFetching={true}
+        >
+          <Unknown
+            events={Array []}
+            isFetching={true}
+          />
+        </Unknown>
+      </ForwardRef>
+    </ForwardRef>
+  </ForwardRef>
+</div>
+`;

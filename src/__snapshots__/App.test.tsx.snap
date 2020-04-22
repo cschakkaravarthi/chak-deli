@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <UNDEFINED />
+    <ScrollToTop />
+    <UNDEFINED
+      allLinksOpen={false}
+      editLinks={false}
+      notificationsOpen={false}
+      onNotificationPress={[Function]}
+      onSetAllLinksOpen={[Function]}
+      onSetEditLinks={[Function]}
+      primaryNav={
+        Array [
+          Object {
+            "id": 1,
+            "label": "News",
+            "route": "/news-articles",
+          },
+          Object {
+            "id": 2,
+            "label": "Employee Services",
+            "route": "/employee-services",
+          },
+          Object {
+            "id": 3,
+            "label": "Offices & People",
+            "route": "/offices",
+          },
+          Object {
+            "id": 4,
+            "label": "Departments",
+            "route": "/departments",
+          },
+          Object {
+            "id": 5,
+            "label": "Systems & Applications",
+            "route": "/systems-applications",
+          },
+          Object {
+            "id": 6,
+            "label": "Brands & Labels",
+            "route": "/brands-labels",
+          },
+        ]
+      }
+      user={Object {}}
+    />
+    <UNDEFINED
+      editLinks={false}
+      links={Array []}
+      menuOpen={false}
+      onSetEditLinks={[Function]}
+      onSetMenuOpen={[Function]}
+      user={Object {}}
+    />
+    <UNDEFINED
+      menuOpen={false}
+      onSetMenuOpen={[Function]}
+    />
+    <RouteTracker />
+    <React.Suspense
+      fallback={
+        <h5
+          className="text-center p-5"
+        >
+          Loading...
+        </h5>
+      }
+    >
+      <Switch>
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/news-articles"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/article/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/events"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/event/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/notifications"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/search"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/profile"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/pages/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/employee-services"
+        />
+        <Route
+          exact={true}
+          path="/departments/:id/people"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/labels/:id/people"
+          render={[Function]}
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/departments/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/departments"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/profile/edit"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/office/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/user"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/user/:id"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/artists"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/systems-applications"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/brands-labels"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/offices"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/appreciation-cards"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/aad_redirect_callback"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/error500"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/appreciation-cards/create"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+        />
+      </Switch>
+      <Unknown
+        hrefLink="mailto:UMGCentral@umusic.com"
+        title="FEEDBACK"
+      />
+    </React.Suspense>
+  </Router>
+</Provider>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventCard for search result renders correctly with props 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    event={
+      Object {
+        "attachments": null,
+        "body_full": "<p>Some body text</p>
+",
+        "categories": Array [],
+        "category_ancestors": Array [],
+        "created": 1568326940,
+        "drupal_id": 4,
+        "event_category": Array [
+          Object {
+            "drupal_id": 46,
+            "icon": null,
+            "title": "Industry Events",
+            "weight": 1,
+          },
+        ],
+        "image_uri": Object {
+          "source": "undefined",
+          "umgc_banner": "undefined",
+          "umgc_embedded": "undefined",
+          "umgc_featured": "undefined",
+          "umgc_thumbnail": "undefined",
+        },
+        "language": "en",
+        "owner": Array [
+          Object {
+            "drupal_id": 3,
+            "icon": null,
+            "title": "Global Travel",
+            "weight": 0,
+          },
+        ],
+        "summary": "",
+        "tags": Array [
+          Object {
+            "drupal_id": 6,
+            "icon": null,
+            "title": "Lady Gaga",
+            "weight": 0,
+          },
+        ],
+        "tags_ancestors": Array [
+          Object {
+            "drupal_id": 6,
+            "icon": null,
+            "title": "Lady Gaga",
+            "weight": 0,
+          },
+        ],
+        "title": "Test 1",
+        "type": "event",
+        "when_duration": 7199,
+        "when_end": 1568370600,
+        "when_start": 1568326940,
+        "where": "Over the Rainbow",
+      }
+    }
+  />
+</Router>
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appreciationReducers Handles APPRECIATION_CARD_ID action 1`] = `
+Object {
+  "appreciationCardAlert": undefined,
+  "appreciationCardAlertError": false,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": false,
+  "cardId": "1",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": false,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;
+
+exports[`appreciationReducers Handles ARCHIVE_ALERT_STATE action 1`] = `
+Object {
+  "appreciationCardAlert": undefined,
+  "appreciationCardAlertError": false,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": true,
+  "cardId": "",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": false,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;
+
+exports[`appreciationReducers Handles CLEAR_APPRECIATION_REDUCER action 1`] = `
+Object {
+  "appreciationCardAlert": undefined,
+  "appreciationCardAlertError": false,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": false,
+  "cardId": "",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": false,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;
+
+exports[`appreciationReducers Handles LOAD_APPRECIATION_ALERT action 1`] = `
+Object {
+  "appreciationCardAlert": Array [
+    Object {
+      "cardId": "40518cda-f3eb-406f-904f-7f256def2b2f",
+      "cardMessage": "Your so cute Rudy",
+      "dateSent": "1576881752255",
+      "recipientArchived": false,
+      "recipientEmail": "marion1.wirsig1@umusic.com",
+      "recipientFirstName": "Marion",
+      "recipientLastName": "Wirsig",
+      "recipientSupervisorEmail": "meena1.belagam1@umusic.com",
+      "senderEmail": "meena.belagam@umusic.com",
+      "senderFirstName": "Meena",
+      "senderLastName": "Belagam",
+      "supervisorArchived": false,
+    },
+  ],
+  "appreciationCardAlertError": false,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": false,
+  "cardId": "",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": undefined,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;
+
+exports[`appreciationReducers Handles LOAD_APPRECIATION_ALERT_ERROR action 1`] = `
+Object {
+  "appreciationCardAlert": undefined,
+  "appreciationCardAlertError": true,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": false,
+  "cardId": "",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": undefined,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;
+
+exports[`appreciationReducers Handles SET_NEW_CARD_DETAIL action 1`] = `
+Object {
+  "appreciationCardAlert": undefined,
+  "appreciationCardAlertError": false,
+  "appreciationCardsListGrouped": Object {
+    "received": Array [],
+    "sent": Array [],
+    "team": Array [],
+  },
+  "appreciationManagerCardAlert": undefined,
+  "cardArchiveSuccess": false,
+  "cardId": "",
+  "cardTemplates": Array [],
+  "cardToView": undefined,
+  "displayCardView": false,
+  "isFetching": false,
+  "newAppreciationCardForm": Object {
+    "cardMessage": "Card Message",
+    "managerName": "",
+    "recipientEmail": "",
+    "recipientFirstName": "",
+    "recipientLastName": "",
+    "recipientSupervisorEmail": "",
+    "templateId": "",
+  },
+  "showSentSucessAlert": false,
+}
+`;

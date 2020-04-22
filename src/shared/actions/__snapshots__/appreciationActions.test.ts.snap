@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appreciation cards actions creates a archiveAlertState action 1`] = `
+Object {
+  "cardArchiveSuccess": true,
+  "type": "ARCHIVE_ALERT_STATE",
+}
+`;
+
+exports[`appreciation cards actions creates a clearNewCardForm action 1`] = `
+Object {
+  "type": "CLEAR_NEW_CARD_FORM",
+}
+`;
+
+exports[`appreciation cards actions creates a fetchCardTemplates action 1`] = `
+Object {
+  "cardTemplates": Array [
+    Object {
+      "active": true,
+      "bottomImg": "bottomImg",
+      "templateId": "1",
+      "topImg": "topImg",
+    },
+  ],
+  "type": "FETCH_CARD_TEMPLATES",
+}
+`;
+
+exports[`appreciation cards actions creates a fetchRequest action 1`] = `
+Object {
+  "isFetching": true,
+  "type": "FETCH_APPRECIATION_DATA",
+}
+`;
+
+exports[`appreciation cards actions creates a loadAppreciationAlertAction action 1`] = `
+Object {
+  "appreciationCardAlert": Array [
+    Object {
+      "cardId": "40518cda-f3eb-406f-904f-7f256def2b2f",
+      "cardMessage": "Your so cute Rudy",
+      "dateSent": "1576881752255",
+      "recipientArchived": false,
+      "recipientEmail": "marion1.wirsig1@umusic.com",
+      "recipientFirstName": "Marion",
+      "recipientLastName": "Wirsig",
+      "recipientSupervisorEmail": "meena1.belagam1@umusic.com",
+      "senderEmail": "meena.belagam@umusic.com",
+      "senderFirstName": "Meena",
+      "senderLastName": "Belagam",
+      "supervisorArchived": false,
+    },
+  ],
+  "isFetching": true,
+  "type": "LOAD_APPRECIATION_ALERT",
+}
+`;
+
+exports[`appreciation cards actions creates a loadAppreciationError action 1`] = `
+Object {
+  "appreciationCardAlertError": true,
+  "isFetching": false,
+  "type": "LOAD_APPRECIATION_ALERT_ERROR",
+}
+`;
+
+exports[`appreciation cards actions creates a loadAppreciationManagerAlertAction action 1`] = `
+Object {
+  "appreciationManagerCardAlert": Array [
+    Object {
+      "cardId": "40518cda-f3eb-406f-904f-7f256def2b2f",
+      "cardMessage": "Your so cute Rudy",
+      "dateSent": "1576881752255",
+      "recipientArchived": false,
+      "recipientEmail": "marion1.wirsig1@umusic.com",
+      "recipientFirstName": "Marion",
+      "recipientLastName": "Wirsig",
+      "recipientSupervisorEmail": "meena1.belagam1@umusic.com",
+      "senderEmail": "meena.belagam@umusic.com",
+      "senderFirstName": "Meena",
+      "senderLastName": "Belagam",
+      "supervisorArchived": false,
+    },
+  ],
+  "isFetching": false,
+  "type": "LOAD_APPRECIATION_MANAGER_ALERT",
+}
+`;
+
+exports[`appreciation cards actions creates a setDetailGroup action 1`] = `
+Object {
+  "payload": Object {
+    "senderName": "marcelo",
+  },
+  "type": "SET_NEW_CARD_DETAIL",
+}
+`;
+
+exports[`appreciation cards actions creates a setNewCardDetail action 1`] = `
+Object {
+  "payload": Object {
+    "field": "value",
+  },
+  "type": "SET_NEW_CARD_DETAIL",
+}
+`;
+
+exports[`appreciation cards actions creates a toggleSentSuccessAlert action 1`] = `
+Object {
+  "showSentSucessAlert": true,
+  "type": "TOGGLE_SUCCESS_SENT_ALERT",
+}
+`;

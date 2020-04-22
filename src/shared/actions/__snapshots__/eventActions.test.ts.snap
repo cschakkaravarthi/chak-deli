@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eventActions creates a loadArticleById action 1`] = `
+Object {
+  "event": Object {
+    "attachments": null,
+    "body_full": "<p>Some body text</p>
+",
+    "categories": Array [],
+    "category_ancestors": Array [],
+    "created": 1568326940,
+    "drupal_id": 4,
+    "event_category": Array [
+      Object {
+        "drupal_id": 46,
+        "icon": null,
+        "title": "Industry Events",
+        "weight": 1,
+      },
+    ],
+    "image_uri": Object {
+      "source": "undefined",
+      "umgc_banner": "undefined",
+      "umgc_embedded": "undefined",
+      "umgc_featured": "undefined",
+      "umgc_thumbnail": "undefined",
+    },
+    "language": "en",
+    "owner": Array [
+      Object {
+        "drupal_id": 3,
+        "icon": null,
+        "title": "Global Travel",
+        "weight": 0,
+      },
+    ],
+    "summary": "",
+    "tags": Array [
+      Object {
+        "drupal_id": 6,
+        "icon": null,
+        "title": "Lady Gaga",
+        "weight": 0,
+      },
+    ],
+    "tags_ancestors": Array [
+      Object {
+        "drupal_id": 6,
+        "icon": null,
+        "title": "Lady Gaga",
+        "weight": 0,
+      },
+    ],
+    "title": "Test 1",
+    "type": "event",
+    "when_duration": 7199,
+    "when_end": 1568370600,
+    "when_start": 1568326940,
+    "where": "Over the Rainbow",
+  },
+  "type": "LOAD_EVENT_BY_ID",
+}
+`;
+
+exports[`eventActions creates a loadEvents action 1`] = `
+Object {
+  "eventsList": Array [
+    Object {
+      "attachments": null,
+      "body_full": "<p>Some body text</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1568326940,
+      "drupal_id": 4,
+      "event_category": Array [
+        Object {
+          "drupal_id": 46,
+          "icon": null,
+          "title": "Industry Events",
+          "weight": 1,
+        },
+      ],
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "language": "en",
+      "owner": Array [
+        Object {
+          "drupal_id": 3,
+          "icon": null,
+          "title": "Global Travel",
+          "weight": 0,
+        },
+      ],
+      "summary": "",
+      "tags": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "tags_ancestors": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "title": "Test 1",
+      "type": "event",
+      "when_duration": 7199,
+      "when_end": 1568370600,
+      "when_start": 1568326940,
+      "where": "Over the Rainbow",
+    },
+    Object {
+      "attachments": null,
+      "body_full": "<p>Some body text</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1568326940,
+      "drupal_id": 24,
+      "event_category": Array [
+        Object {
+          "drupal_id": 46,
+          "icon": null,
+          "title": "Industry Events",
+          "weight": 1,
+        },
+      ],
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "language": "en",
+      "owner": Array [
+        Object {
+          "drupal_id": 3,
+          "icon": null,
+          "title": "Global Travel",
+          "weight": 0,
+        },
+      ],
+      "summary": "",
+      "tags": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "tags_ancestors": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "title": "Test 1",
+      "type": "event",
+      "when_duration": 7199,
+      "when_end": 1568370600,
+      "when_start": 1568326940,
+      "where": "Over the Rainbow",
+    },
+  ],
+  "type": "LOAD_EVENTS",
+}
+`;
+
+exports[`eventActions creates a loadMoreEvents action 1`] = `
+Object {
+  "facets": Object {
+    "tags": Array [
+      Object {
+        "drupal_id": 1,
+        "icon": "string",
+        "title": "string",
+        "weight": 1,
+      },
+    ],
+  },
+  "moreEventsList": Array [
+    Object {
+      "attachments": null,
+      "body_full": "<p>Some body text</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1568326940,
+      "drupal_id": 4,
+      "event_category": Array [
+        Object {
+          "drupal_id": 46,
+          "icon": null,
+          "title": "Industry Events",
+          "weight": 1,
+        },
+      ],
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "language": "en",
+      "owner": Array [
+        Object {
+          "drupal_id": 3,
+          "icon": null,
+          "title": "Global Travel",
+          "weight": 0,
+        },
+      ],
+      "summary": "",
+      "tags": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "tags_ancestors": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "title": "Test 1",
+      "type": "event",
+      "when_duration": 7199,
+      "when_end": 1568370600,
+      "when_start": 1568326940,
+      "where": "Over the Rainbow",
+    },
+    Object {
+      "attachments": null,
+      "body_full": "<p>Some body text</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1568326940,
+      "drupal_id": 24,
+      "event_category": Array [
+        Object {
+          "drupal_id": 46,
+          "icon": null,
+          "title": "Industry Events",
+          "weight": 1,
+        },
+      ],
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "language": "en",
+      "owner": Array [
+        Object {
+          "drupal_id": 3,
+          "icon": null,
+          "title": "Global Travel",
+          "weight": 0,
+        },
+      ],
+      "summary": "",
+      "tags": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "tags_ancestors": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "title": "Test 1",
+      "type": "event",
+      "when_duration": 7199,
+      "when_end": 1568370600,
+      "when_start": 1568326940,
+      "where": "Over the Rainbow",
+    },
+  ],
+  "type": "FETCH_MORE_EVENTS",
+}
+`;

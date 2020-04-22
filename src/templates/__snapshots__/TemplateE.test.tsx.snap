@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateE renders correctly 1`] = `
+<React.Fragment>
+  <ForwardRef
+    className="px-3 pt-3"
+    noGutters={false}
+  >
+    <Unknown
+      title=""
+      topBorder="darkTurquoise"
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+          }
+        }
+      />
+    </Unknown>
+  </ForwardRef>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <UNDEFINED
+        category="3"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <Unknown
+        title="Contacts"
+        topBorder="green"
+        type="cardsInContainer"
+        variant="standard"
+      >
+        <ForwardRef
+          noGutters={false}
+        >
+          <ForwardRef
+            className="p-1"
+            md={12}
+          >
+            <Unknown
+              LinkToProfile={[Function]}
+              email="doris.aves@umusic.com"
+              isCurrentUser={false}
+              mobile=""
+              office=""
+              title="Luz Lacson"
+              type="contactMe"
+              variant="profile"
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </Unknown>
+    </ForwardRef>
+  </ForwardRef>
+</React.Fragment>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error500CardWithTitle renders Error500 Card With Title 1`] = `
+<Unknown
+  title="Org Chart"
+  titleClass="text-upper font-size-md mb-4 undefined"
+  topBorder="darkTurquoise"
+  wrapperClass="h-100"
+>
+  <Error500 />
+</Unknown>
+`;

@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  umgc_delivery:
+    image: docker-registry.umusic.net/central/umgc_delivery
+    expose:
+      - 5000
+    environment:
+      - ENV=$ENV
+    deploy:
+      replicas: 12
+      labels:
+        traefik.enable: "true"
+        traefik.frontend.rule: "Host: $SUBDOMAIN.$ROOT_DOMAIN, central.umusic.com"
+        traefik.docker.network: web
+        traefik.port: "5000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/healthcheck"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - web
+
+networks:
+  web:
+    external: true

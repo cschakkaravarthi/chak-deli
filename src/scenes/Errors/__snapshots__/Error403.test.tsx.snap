@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error403 renders Error403 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    isShowBrowsers={false}
+    message="Forbidden content."
+    title="Error 403"
+  />
+</div>
+`;

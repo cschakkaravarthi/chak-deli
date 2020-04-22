@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document for search result renders correctly with props 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    document={
+      Object {
+        "categories": Array [],
+        "category_ancestors": Array [],
+        "document_uri": "s3://2019-11/Drupal screens_Observations.docx",
+        "drupal_id": 1,
+        "owner": Array [],
+        "summary": "test summary",
+        "title": "vonPfister",
+        "type": "Office",
+      }
+    }
+  />
+</Router>
+`;

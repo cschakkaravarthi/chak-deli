@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly with articles 1`] = `
+<ForwardRef
+  className="m-0 p-0"
+  fluid={false}
+>
+  <ForwardRef
+    noGutters={true}
+  >
+    <ForwardRef
+      className="row m-0 p-0"
+      lg={4}
+      md={6}
+      sm={12}
+    >
+      <Unknown
+        MainLink={[Function]}
+        categories={
+          Array [
+            Object {
+              "drupal_id": 45,
+              "icon": null,
+              "title": "Industry News",
+              "weight": 1,
+            },
+          ]
+        }
+        date="June 20, 2019"
+        imageUrl="undefined"
+        title="Zeppelin"
+        type="article"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="row m-0 p-0"
+      lg={4}
+      md={6}
+      sm={12}
+    >
+      <Unknown
+        MainLink={[Function]}
+        categories={
+          Array [
+            Object {
+              "drupal_id": 45,
+              "icon": null,
+              "title": "Industry News",
+              "weight": 1,
+            },
+          ]
+        }
+        date="June 20, 2019"
+        imageUrl="undefined"
+        title="Floyd"
+        type="article"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="row m-0 p-0"
+      lg={4}
+      md={6}
+      sm={12}
+    >
+      <Unknown
+        MainLink={[Function]}
+        categories={
+          Array [
+            Object {
+              "drupal_id": 45,
+              "icon": null,
+              "title": "Industry News",
+              "weight": 1,
+            },
+          ]
+        }
+        date="June 20, 2019"
+        imageUrl="undefined"
+        title="Hendrix"
+        type="article"
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;

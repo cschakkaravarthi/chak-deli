@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalAppreciationCardPreview renders correctly 1`] = `
+<ForwardRef(render)
+  centered={true}
+  className="appreciation-card-modal"
+  onHide={[MockFunction]}
+  show={true}
+  size="lg"
+>
+  <Unknown
+    appreciationText="Your so cute Rudy"
+    senderName="Meena Belagam"
+    title="Marion Wirsig"
+    type="appreciation"
+    variant="default"
+  />
+  <div
+    className="close-button-appreciation d-flex justify-content-center"
+  >
+    <Unknown
+      className="primary-button text-uppercase btn-sm close-button position-absolute mt-3"
+      handleClick={[MockFunction]}
+      title="close"
+    />
+  </div>
+</ForwardRef(render)>
+`;
+
+exports[`ModalAppreciationCardPreview renders null when no card info is present 1`] = `null`;

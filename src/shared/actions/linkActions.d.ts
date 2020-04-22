@@ -1,0 +1,21 @@
+import { LoadFacilitiesAction, LoadFacilitiesError, LoadLinksAction, LoadMinisiteLinksAction, LoadQuickToolsAction, LoadUserLinksAction, ClearLinksAction, SetUserLinksAction } from '../types/linkTypes';
+import { LinkGroupItems } from '../models/Link.model';
+import { ThunkAction, ThunkDispatch } from 'redux-thunk';
+import { AnyAction } from 'redux';
+import Link from '../../shared/models/Link.model';
+import { VariousContentGroupModel } from '../types/contentTypes';
+export declare const clearLinksAction: () => ClearLinksAction;
+export declare const loadFacilities: (facilities: Link[]) => LoadFacilitiesAction;
+export declare const loadFacilitiesError: (error: string) => LoadFacilitiesError;
+export declare const fetchFacilities: (categoryId?: string | undefined) => (dispatch: ThunkDispatch<{}, {}, AnyAction>) => Promise<void>;
+export declare const loadLinks: (groups: LinkGroupItems[]) => LoadLinksAction;
+export declare const fetchLinks: () => (dispatch: ThunkDispatch<{}, {}, AnyAction>) => Promise<void>;
+export declare const loadUserLinks: (links: Link[]) => LoadUserLinksAction;
+export declare const fetchUserLinks: () => (dispatch: ThunkDispatch<{}, {}, AnyAction>) => Promise<void>;
+export declare const setUserLinks: (success: boolean) => SetUserLinksAction;
+export declare const saveUserLinks: (links: string[]) => (dispatch: ThunkDispatch<{}, {}, AnyAction>) => Promise<void>;
+export declare const loadMinisiteLinks: (minisiteLinks: VariousContentGroupModel[], cat: string) => LoadMinisiteLinksAction;
+export declare const fetchMinisiteLinks: (cat: string) => (dispatch: ThunkDispatch<{}, {}, AnyAction>) => Promise<void>;
+export declare const loadQuickTools: (quickTools: Link[]) => LoadQuickToolsAction;
+export declare const fetchQuickTools: () => ThunkAction<Promise<void>, {}, {}, AnyAction>;
+//# sourceMappingURL=linkActions.d.ts.map

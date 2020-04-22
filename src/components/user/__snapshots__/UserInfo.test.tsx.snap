@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo renders correctly with info 1`] = `
+<div
+  className="user__info"
+>
+  <div
+    className="user__name"
+  >
+    <a
+      href="#"
+    >
+      Lacson
+      , 
+      Luz
+    </a>
+  </div>
+  <div
+    className="user__title"
+  >
+    <p>
+      Senior Director
+    </p>
+    <p>
+      UMG Corporate IT
+    </p>
+  </div>
+  <div
+    className="user__email"
+  >
+    <a
+      href="mailto:doris.aves@umusic.com"
+      type="email"
+    >
+      doris.aves@umusic.com
+    </a>
+  </div>
+  <div
+    className="user__office"
+  >
+    <p>
+      Office: 
+      Woodland Hills - UMG
+    </p>
+  </div>
+  <div
+    className="user__address"
+  >
+    <p>
+      A-31
+       
+      <br />
+      21301 Burbank Blvd
+       
+      <br />
+      Woodland Hills, CA 
+      91367
+    </p>
+  </div>
+  <div
+    className="user__phone"
+  >
+    <p>
+      <span>
+        Phone: 
+        +1 221 397 5664
+      </span>
+    </p>
+    <p>
+      <span>
+        Mobile: 
+        +1 413 286 671
+      </span>
+    </p>
+  </div>
+</div>
+`;

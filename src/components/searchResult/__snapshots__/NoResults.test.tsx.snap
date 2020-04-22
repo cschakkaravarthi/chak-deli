@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoResults for search result renders correctly 1`] = `
+<ForwardRef
+  className="article-list mt-5"
+  fluid={false}
+>
+  <ForwardRef
+    className="mb-2 article-list-header"
+    noGutters={false}
+  >
+    <ForwardRef
+      md={12}
+      sm={12}
+    >
+      <h3
+        className="text-center"
+      >
+        Sorry, no results found.
+      </h3>
+      <p
+        className="text-center"
+      >
+        Try another search or browse these areas:
+      </p>
+    </ForwardRef>
+  </ForwardRef>
+  <React.Fragment>
+    <ForwardRef
+      noGutters={false}
+    >
+      <ForwardRef
+        className="mb-3 mb-md-5"
+        md={4}
+        sm={12}
+      >
+        <Unknown
+          MainLink={[Function]}
+          description="Browse the latest news regarding artists, UMG events, and UMG news."
+          title="News"
+          type="search"
+          variant="noResult"
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="mb-3 mb-md-5"
+        md={4}
+        sm={12}
+      >
+        <Unknown
+          MainLink={[Function]}
+          description="Browse all UMG office locations and people."
+          title="Offices & People"
+          type="search"
+          variant="noResult"
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="mb-3 mb-md-5"
+        md={4}
+        sm={12}
+      >
+        <Unknown
+          MainLink={[Function]}
+          description="Browse all Departments."
+          title="Departments"
+          type="search"
+          variant="noResult"
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="mb-3 mb-md-5"
+        md={4}
+        sm={12}
+      >
+        <Unknown
+          MainLink={[Function]}
+          description="Browse all systems & applications."
+          title="Systems & Applications"
+          type="search"
+          variant="noResult"
+        />
+      </ForwardRef>
+      <ForwardRef
+        className="mb-3 mb-md-5"
+        md={4}
+        sm={12}
+      >
+        <Unknown
+          MainLink={[Function]}
+          description="Browse all brands & labels within UMG by location."
+          title="Brands & Labels"
+          type="search"
+          variant="noResult"
+        />
+      </ForwardRef>
+    </ForwardRef>
+  </React.Fragment>
+</ForwardRef>
+`;

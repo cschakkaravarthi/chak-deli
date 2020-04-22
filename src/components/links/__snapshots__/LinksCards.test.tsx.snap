@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinksCards renders correctly 1`] = `
+<Unknown
+  title="Resources"
+  topBorder="darkTurquoise"
+>
+  <div>
+    <p
+      className="font-size-base g700-text-clr card-grouped-subheader"
+    >
+      <b>
+        Group Title
+      </b>
+    </p>
+    <ForwardRef
+      className="departments-links"
+      noGutters={false}
+    >
+      <div
+        className="mb-4 col-sm-6 col-md-4"
+      >
+        <Unknown
+          MainLink={[Function]}
+          imageUrl="undefined"
+          title="Test Article"
+          type="link"
+          variant="minimal"
+        />
+      </div>
+      <div
+        className="mb-4 col-sm-6 col-md-4"
+      >
+        <Unknown
+          MainLink={[Function]}
+          imageUrl=""
+          title="Zebra"
+          type="link"
+          variant="minimal"
+        />
+      </div>
+      <React.Fragment />
+      <div
+        className="mb-4 col-sm-6 col-md-4"
+      >
+        <Unknown
+          MainLink={[Function]}
+          imageUrl="undefined"
+          title="Test 1"
+          type="link"
+          variant="minimal"
+        />
+      </div>
+      <div
+        className="mb-4 col-sm-6 col-md-4"
+      >
+        <Unknown
+          MainLink={[Function]}
+          imageUrl=""
+          title="Recreation"
+          type="link"
+          variant="minimal"
+        />
+      </div>
+    </ForwardRef>
+  </div>
+  <div>
+    <p
+      className="font-size-base g700-text-clr card-grouped-subheader"
+    >
+      <b>
+        Group Title 2
+      </b>
+    </p>
+    <ForwardRef
+      className="departments-links"
+      noGutters={false}
+    >
+      <div
+        className="mb-4 col-sm-6 col-md-4"
+      >
+        <Unknown
+          MainLink={[Function]}
+          imageUrl=""
+          title="Zebra"
+          type="link"
+          variant="minimal"
+        />
+      </div>
+    </ForwardRef>
+  </div>
+</Unknown>
+`;

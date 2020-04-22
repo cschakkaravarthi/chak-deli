@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -ev
+
+DOCKER_IMAGE=""
+if [[ -f docker-image.txt ]]; then
+  DOCKER_IMAGE=$(<docker-image.txt)
+else
+  DOCKER_IMAGE=docker-registry.umusic.com/ocp/umgc_delivery:$GIT_COMMIT
+fi
+
+echo Deploying: $DOCKER_IMAGE
+
+docker login --username $DOCKER_REGISTRY_USR --password $DOCKER_REGISTRY_PSW docker-registry.umusic.com
+docker pull $DOCKER_IMAGE
+docker rm -f umgc_delivery || true
+docker create --name umgc_delivery $DOCKER_IMAGE
+rm -rf /tmp/umgc_delivery
+mkdir -p /tmp/umgc_delivery
+docker cp umgc_delivery:/app/$ENV /tmp/umgc_delivery/
+docker rm -f umgc_delivery || true
+cd /tmp/umgc_delivery/$ENV
+aws s3 sync --delete . s3://aws58-umgc-delivery-$ENV/
+rm -rf /tmp/umgc_delivery
+
+if [[ ! -z "$CLOUDFRONT_DISTRIBUTION_ID" ]]; then
+	aws cloudfront \
+		create-invalidation \
+		--distribution-id $CLOUDFRONT_DISTRIBUTION_ID \
+		--paths '/*'
+fi

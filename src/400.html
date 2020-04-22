@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>UMG Central</title>
+
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta charSet="utf8" />
+  <meta name="description" content="UMG Central" />
+  <meta name="keywords" content="umgc" />
+  <meta name="author" content="Universal Music Group" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="icon" href="/assets/icons/favicon.ico" sizes="32x32" />
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" sizes="196x196" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-120.png" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-152.png" sizes="152x152" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-167.png" sizes="167x167" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon-180.png" sizes="180x180" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_640x1136.png"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_750x1334.png"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_1242x2208.png"
+    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_1125x2436.png"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_1536x2048.png"
+    media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_1668x2224.png"
+    media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" />
+  <link rel="apple-touch-startup-image" href="/assets/splashscreens/splash_2048x2732.png"
+    media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-color: #f8f8f8;
+    }
+    .mb-5 {
+      margin-top: 12%;
+    }
+    .links-container {
+      margin-top: 30px;
+    }
+    .link-item {
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .gray-600 {
+      color: #757575;
+    }
+    .font-weight-bold {
+      font-weight: bold;
+    }
+    .font-size-title {
+      font-size: 24px;
+    }
+    .font-size-base {
+      font-size: 18px;
+    }
+    .font-size-sm {
+      font-size: 14px;
+    }
+    .text-decoration-underline {
+      text-decoration: underline;
+    }
+    .message {
+      max-width: 400px;
+    }
+    a {
+      color : #212529;
+      margin-top: 10px;
+    }
+    .footer-container {
+      position: absolute;
+      bottom: 0;
+      min-height: 100px;
+      background-color: #fff;
+      padding: 25px 60px;
+    }
+    .btn-secondary {
+	    background: #f8f8f8 0% 0% no-repeat padding-box;
+	    border: 2.5px solid #fff;
+	    border-radius: 5px;
+	    color: #2b2b2b;
+	    height: 50px;
+	    opacity: 1;
+	    padding: 0 20px;
+      position: relative;
+      letter-spacing: 1.6px;
+    }
+    .btn-secondary svg {
+	    background: #f8f8f8 0% 0% no-repeat padding-box;
+	    color: #2b2b2b;
+    }
+    .btn-secondary:active, .btn-secondary:hover, .btn-secondary:focus {
+	    background: #f8f8f8 0% 0% no-repeat padding-box;
+	    border: 2.5px solid #a4a4a4;
+	    color: #2b2b2b !important;
+	    background-color: #f8f8f8 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mb-5">  
+    <div class="text-center mt-5">
+      <img width="150" height="115" src="/assets/face_browser.svg" />
+      <p class="mt-5 gray-600 font-weight-bold font-size-title">Please upgrade your browser.</p>
+      <p class="font-size-base m-auto align-text-center message">
+        UMG Central has detected that you are using an 
+        unsupported browser. Please use links below 
+        to download and install a supported browser.
+      </p>
+      <div class="mt-5">
+        <div class="link-item">
+          <img width="50" height="50" src="/assets/Chrome-Logo-Icon.png" />
+          <a href="https://www.google.com/intl/en/chrome/" target="_blank" class="d-block font-size-sm text-decoration-underline">Google Chrome</a>
+        </div>
+        <div class="link-item">
+          <img width="50" height="50" src="/assets/Safari_logo.png" />
+          <a href="https://www.apple.com/safari/" target="_blank" class="d-block font-size-sm text-decoration-underline">Apple Safari</a>
+        </div>
+        <div class="link-item">
+          <img width="50" height="50" src="/assets/Microsoft-Edge.png" />
+          <a href="https://www.microsoft.com/en-us/windows/microsoft-edge" target="_blank" class="d-block font-size-sm text-decoration-underline">Microsoft Edge</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container w-100 text-sm-right text-center">
+    <a href="https://umusic.service-now.com/assessment_take2.do?sysparm_assessable_type=ad428303db61c8d022fe96f9db9619f5" target="_blank">
+      <button variant="outline-secondary" class="btn-secondary font-weight-bold text-uppercase letter-spacing-01rem">
+        <span className="d-sm-inline order-xl-2">FEEDBACK</span>
+      </button>
+    </a>
+  </div>
+</body>
+</html>

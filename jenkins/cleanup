@@ -1,0 +1,21 @@
+git branch -r > tmpbranch
+sed 's/  origin/delivery/g' tmpbranch > tmpbranch1
+sed 's/\//\-/g' tmpbranch1 > tmpbranch
+
+aws s3 ls aws58-devops/dev/  |grep delivery| awk '{print $2}' > tmps3deploy1
+sed 's/\///g' tmps3deploy1 > tmps3deploy
+
+var=($(cat tmps3deploy))
+
+for i in "${var[@]}"
+do
+
+if grep -Fxq "$i" tmpbranch
+then
+   echo " "
+elif [ "$i" != "delivery" ]; then
+    echo "branch not found - " $i
+    aws s3 rm s3://aws58-devops/dev/$i --recursive
+fi
+
+done

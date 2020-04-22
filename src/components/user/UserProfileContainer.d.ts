@@ -1,0 +1,30 @@
+import React from 'react';
+import { UserProfileModel, ContactList } from '../../shared/models/UserInfo.model';
+import { Users } from '../../shared/models/OrgChart.model';
+import Bookmark from '../../shared/models/Bookmark.model';
+import Todo from '../../shared/models/Todo.model';
+declare type Props = {
+    userProfileDetails?: UserProfileModel;
+    orgChartDetails?: Users;
+    isCurrentUser?: boolean;
+    bookmarks?: Bookmark[];
+    fetchBookmarks?: <T>() => T;
+    saveBookmark?: <T>(title: string, url: string) => Promise<T>;
+    removeBookmark?: <T>(identifier: string) => Promise<T>;
+    todos?: Todo[];
+    fetchTodos?: <T>() => T;
+    saveTodo?: <T>(text: string) => Promise<T>;
+    removeTodo?: <T>(identifier: string) => Promise<T>;
+    userContactList?: ContactList[];
+    removeSingleContact?: <T>(email: string) => T;
+    removeContactSucess?: boolean;
+    uploadUserProfilePicture?: <T>(photo: File) => T;
+    isFetchingMyContacts?: boolean;
+    isUploading?: boolean;
+    fetchAddToContactRequest?: <T>(email: string) => T;
+    triggerToast?: <T>(message: string, toastError: boolean) => T;
+    removeProfilePic?: <T>() => T;
+};
+declare const _default: import("react-redux").ConnectedComponent<React.FC<Props>, Pick<Props, never> & Props>;
+export default _default;
+//# sourceMappingURL=UserProfileContainer.d.ts.map

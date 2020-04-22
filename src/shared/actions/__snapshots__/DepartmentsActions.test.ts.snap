@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DepartmentsActions creates a loadDepartments action 1`] = `
+Object {
+  "departments": Array [
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 192019,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 1,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 2,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 3,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 5,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 6,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+    Object {
+      "banner_alt": "Two people at a desk",
+      "banner_uri": Object {
+        "source": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_banner": "s3://styles/umgc_banner/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_embedded": "s3://styles/umgc_embedded/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_featured": "s3://styles/umgc_featured/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+        "umgc_thumbnail": "s3://styles/umgc_thumbnail/s3/2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      },
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Departments List",
+          "weight": 2,
+        },
+      ],
+      "contacts": Array [
+        Object {
+          "contacts": Array [
+            "test1@example.com",
+            "test2@example.com",
+          ],
+          "group_label": "Primary Contacts",
+        },
+        Object {
+          "contacts": Array [
+            "test3@example.com",
+            "test4@example.com",
+          ],
+          "group_label": "Secondary Contacts",
+        },
+      ],
+      "drupal_id": 7,
+      "is_homepage": false,
+      "language": "en",
+      "logo_uri": "s3://2019-11/helloquence-5fNmWej4tAA-unsplash.jpg",
+      "owner": Array [],
+      "score": undefined,
+      "summary": "body Lorem ipsum dolor summary",
+      "template": Array [
+        Object {
+          "drupal_id": 23,
+          "icon": "",
+          "title": "Template A",
+          "weight": 2,
+        },
+      ],
+      "title": "Finance",
+      "type": "department",
+      "website_url": "",
+    },
+  ],
+  "type": "LOAD_DEPARTMENTS",
+}
+`;

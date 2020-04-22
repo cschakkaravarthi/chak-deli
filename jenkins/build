@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -ev
+
+DOCKER_NAMESPACE=central
+DOCKER_IMAGE=umgc_delivery
+
+[ -e git_branch.txt ] && rm git_branch.txt 
+[ -e override_env ] && rm override_env
+if [[ "$JOB_NAME" == *"feature"* ]]; then
+  echo ${GIT_BRANCH#*/} | sed 's/\//\-/g' > git_branch.txt
+  if [ ! -z "$OVERRIDE_ENV" ]; then
+      echo $OVERRIDE_ENV > override_env
+  fi
+fi
+
+docker login --username $DOCKER_REGISTRY_USR --password $DOCKER_REGISTRY_PSW docker-registry.umusic.com
+docker build . \
+  --build-arg VAULT_USER=$VAULT_USR --build-arg VAULT_PASS=$VAULT_PSW --build-arg VAULT_METHOD=userpass \
+  -t "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:latest"
+docker tag "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:latest" \
+    "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:${GIT_COMMIT}"
+docker push "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:${GIT_COMMIT}" &
+docker push "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:latest" &
+wait
+echo "docker-registry.umusic.com/$DOCKER_NAMESPACE/$DOCKER_IMAGE:${GIT_COMMIT}" > docker-image.txt
+
+
+echo $DEPLOY_ENVIRONEMT
+git log -1 > git.log

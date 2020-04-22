@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadOfficesActions creates a loadOfficesPeople action 1`] = `
+Object {
+  "officesPeople": Array [
+    Object {
+      "officeList": Array [
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "officeCategories": Array [
+            Object {
+              "drupal_id": 1,
+              "icon": "test.png",
+              "title": "test",
+              "weight": 1,
+            },
+          ],
+          "title": "Office Name",
+          "type": "office",
+        },
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+          "type": "office",
+        },
+      ],
+      "placeName": "New York",
+    },
+    Object {
+      "drupal_id": 2,
+      "officeList": Array [
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+          "type": "office",
+        },
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+          "type": "office",
+        },
+      ],
+      "placeName": "Asia",
+    },
+    Object {
+      "drupal_id": 3,
+      "officeList": Array [
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+        },
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+        },
+      ],
+      "placeName": "North America",
+    },
+    Object {
+      "drupal_id": 4,
+      "officeList": Array [
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+        },
+        Object {
+          "address": "21301 burbank blvdWoodland hills, CA",
+          "title": "Office Name",
+        },
+      ],
+      "placeName": "Europe",
+    },
+  ],
+  "type": "LOAD_OFFICES_PEOPLE",
+}
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageCard for search result renders correctly with props 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    pageCard={
+      Object {
+        "body_full": "<p>Here are all the nice things you can do in the Woodland Hills office:<br />
+<br />
+- Yoga</p>
+
+<p>- Drink coffee</p>
+
+<p>- Play games</p>
+",
+        "categories": Array [],
+        "category_ancestors": Array [],
+        "created": 1574803435,
+        "drupal_id": 86,
+        "language": "en",
+        "owner": Array [],
+        "owner_name": "Communications",
+        "promote": false,
+        "summary": "More information on Recreation opportunities in the Woodland Hills office. This card is for a Page.",
+        "tags": Array [],
+        "tags_ancestors": Array [],
+        "title": "Recreation",
+        "type": "page",
+      }
+    }
+  />
+</Router>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePicture renders correctly with info 1`] = `
+<div
+  className="user__picture"
+>
+  <img
+    alt="user profile picture"
+    src="test-file-stub"
+  />
+</div>
+`;

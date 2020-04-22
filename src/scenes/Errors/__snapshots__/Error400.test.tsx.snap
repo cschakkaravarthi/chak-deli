@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error400 renders Error400 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    chromeImage="test-file-stub"
+    edgeImage="test-file-stub"
+    isShowBrowsers={true}
+    message="UMG Central has detected that you are using an unsupported browser. Please use links below to download and install a supported browser."
+    safariImage="test-file-stub"
+    title="Please upgrade your browser."
+  />
+</div>
+`;

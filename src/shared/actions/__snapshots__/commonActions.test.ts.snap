@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`commonActions creates a toggleGlobalToast action 1`] = `
+Object {
+  "displayToast": true,
+  "toastError": false,
+  "toastMessage": "Successfull operation!",
+  "type": "TOGGLE_GLOBAL_TOAST",
+}
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notificationActions creates a loadArticles action 1`] = `
+Object {
+  "notifications": Array [
+    Object {
+      "application": "Deep Thought",
+      "approve": true,
+      "description": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+      "detailsLink": "http://google.com/",
+      "id": 42,
+      "reject": true,
+      "viewed": true,
+    },
+    Object {
+      "application": "Deep Thought",
+      "approve": true,
+      "description": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+      "detailsLink": "http://google.com/",
+      "id": 24,
+      "reject": true,
+      "viewed": true,
+    },
+  ],
+  "type": "LOAD_NOTIFICATIONS",
+}
+`;

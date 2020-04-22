@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`articleReducers Handles loadArticleById action 1`] = `
+Object {
+  "articleList": Array [
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong>&nbsp;About&nbsp;<em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": "test.png",
+          "title": "test",
+          "weight": 1,
+        },
+      ],
+      "category_ancestors": Array [],
+      "created": 1568727365,
+      "drupal_id": 1,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": true,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "summary content",
+      "tags": Array [
+        Object {
+          "drupal_id": 1,
+          "title": "Company news article 6",
+        },
+      ],
+      "title": "Test Article",
+      "type": "article",
+    },
+  ],
+  "facets": Object {},
+  "isLastPage": false,
+  "pageCount": 1,
+  "selectedFacet": "0",
+}
+`;
+
+exports[`articleReducers Handles loadArticles action 1`] = `
+Object {
+  "articleList": Array [
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 1,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Zeppelin",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 2,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Floyd",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 3,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 0,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Hendrix",
+      "type": "article",
+    },
+  ],
+  "facets": Object {},
+  "isLastPage": false,
+  "pageCount": 1,
+  "selectedFacet": "0",
+}
+`;
+
+exports[`articleReducers Handles loadMoreArticles action 1`] = `
+Object {
+  "articleList": Array [
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 1,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Zeppelin",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 2,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Floyd",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 3,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 0,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Hendrix",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 1,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Zeppelin",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 2,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Floyd",
+      "type": "article",
+    },
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong> About <em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.</p><p><a href=\\"https://www.google.com/search?q=music\\">Here is a link</a></p><img src=\\"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/duplaix_shortclawedotter3.jpg?itok=mF0khuw-\\" title=\\"Embedded Video\\" /><ul><li>Bullet point!</li><li>Another one!</li></ul><h2>A second-level heading!!</h2><h3>And a third!!</h3><wombat>This tag is unknown!</wombat><script>alert(\\"This content should be stripped!\\")</script>",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1561047294,
+      "drupal_id": 3,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": false,
+      "likesCount": 0,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "An article about music.",
+      "tags": Array [
+        Object {
+          "drupal_id": 90,
+          "title": "Corporate Communications",
+        },
+      ],
+      "title": "Hendrix",
+      "type": "article",
+    },
+  ],
+  "facets": Object {
+    "tags": Array [
+      Object {
+        "drupal_id": 1,
+        "icon": "string",
+        "title": "string",
+        "weight": 1,
+      },
+    ],
+  },
+  "isLastPage": false,
+  "pageCount": 2,
+  "selectedFacet": "0",
+}
+`;

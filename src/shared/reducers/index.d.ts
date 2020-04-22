@@ -1,0 +1,43 @@
+import { EventState } from '../types/eventTypes';
+import { UsersState } from '../types/userTypes';
+import { ArticleState } from '../types/articleTypes';
+import { NotificationState } from '../types/notificationTypes';
+import { ManualNotificationListState } from '../types/manualNotificationTypes';
+import { LinkState } from '../types/linkTypes';
+import { ProfileState } from '../types/profileTypes';
+import { SearchResultState } from '../types/searchResultTypes';
+import { EmployeeState } from '../types/employeeTypes';
+import { UserProfileState } from '../types/userProfileTypes';
+import { PageState } from '../types/pageTypes';
+import { DepartmentsState } from '../types/departmentTypes';
+import { OfficeState } from '../types/officeTypes';
+import { PeopleState } from '../types/peopleTypes';
+import { OfficesPeopleState } from '../types/officesPeopleType';
+import { BookmarkState } from '../types/bookmarkTypes';
+import { TodoState } from '../types/todoTypes';
+import { ContentStateModel } from '../types/contentTypes';
+import { CommonState } from '../types/commonTypes';
+export interface ApplicationState {
+    articleReducers: ArticleState;
+    bookmarkReducers: BookmarkState;
+    contentReducers: ContentStateModel;
+    departmentReducers: DepartmentsState;
+    employeeReducers: EmployeeState;
+    eventReducers: EventState;
+    linkReducers: LinkState;
+    manualNotificationReducers: ManualNotificationListState;
+    notificationReducers: NotificationState;
+    officeReducers: OfficeState;
+    officesPeopleReducers: OfficesPeopleState;
+    pageReducers: PageState;
+    peopleReducers: PeopleState;
+    profileReducers: ProfileState;
+    searchResultReducers: SearchResultState;
+    todoReducers: TodoState;
+    userProfileReducers: UserProfileState;
+    usersReducers: UsersState;
+    commonReducers: CommonState;
+}
+declare const rootReducer: import("redux").Reducer<ApplicationState, import("redux").AnyAction>;
+export default rootReducer;
+//# sourceMappingURL=index.d.ts.map

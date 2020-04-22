@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleScene compares ids 1`] = `null`;
+
+exports[`ArticleScene renders with article 1`] = `null`;

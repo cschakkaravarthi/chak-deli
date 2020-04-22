@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notificationActions creates a loadArticles action 1`] = `
+Object {
+  "notificationsList": Object {
+    "alerts": Object {
+      "notifications": Array [
+        Object {
+          "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "categories": Array [
+            Object {
+              "drupal_id": 1,
+              "title": "Categories",
+            },
+          ],
+          "created": 1571873331,
+          "isNew": true,
+          "notificationType": "maintenence",
+          "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "title": "Emergency Alert - Los Angeles Area Earthquake",
+          "type": "notification",
+        },
+        Object {
+          "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "categories": Array [
+            Object {
+              "drupal_id": 1,
+              "title": "Categories",
+            },
+          ],
+          "created": 1571873331,
+          "isNew": true,
+          "notificationType": "maintenence",
+          "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "title": "Emergency Alert - Los Angeles Area Earthquake",
+          "type": "notification",
+        },
+      ],
+      "total": 0,
+    },
+    "approvals": Object {
+      "notifications": Array [
+        Object {
+          "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "categories": Array [
+            Object {
+              "drupal_id": 1,
+              "title": "Categories",
+            },
+          ],
+          "created": 1571873331,
+          "isNew": true,
+          "notificationType": "maintenence",
+          "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "title": "Emergency Alert - Los Angeles Area Earthquake",
+          "type": "notification",
+        },
+        Object {
+          "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "categories": Array [
+            Object {
+              "drupal_id": 1,
+              "title": "Categories",
+            },
+          ],
+          "created": 1571873331,
+          "isNew": true,
+          "notificationType": "maintenence",
+          "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+          "title": "Emergency Alert - Los Angeles Area Earthquake",
+          "type": "notification",
+        },
+      ],
+      "total": 0,
+    },
+  },
+  "type": "LOAD_MANUAL_NOTIFICATIONS",
+}
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notificationReducers Handles loadNotifications action 1`] = `
+Object {
+  "categories": Array [],
+  "facets": Object {},
+  "isNewOrArchived": "new",
+  "manualNotificationsListState": undefined,
+  "notificationBell": Object {},
+  "selectedFacet": "",
+}
+`;

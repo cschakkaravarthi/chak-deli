@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People component renders null without facility 1`] = `
+<ForwardRef
+  className="mb-4 office-people"
+  md="4"
+  xs="6"
+>
+  <Unknown
+    MainLink={[Function]}
+    fullName="Bastian vonPfister"
+    imageUrl="/assets/avatar.svg"
+    title="Manager Business Analysis & Commercial P"
+  />
+</ForwardRef>
+`;

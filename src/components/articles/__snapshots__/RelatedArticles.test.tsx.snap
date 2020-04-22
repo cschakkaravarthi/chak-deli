@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RelatedArticles renders correctly with article 1`] = `
+<ForwardRef
+  md={5}
+>
+  <div
+    className="badge-danger rounded"
+  >
+    <ForwardRef
+      to="/news-articles"
+    >
+      More latest News &gt;&gt;
+    </ForwardRef>
+  </div>
+  <div>
+    <div
+      className="content-card"
+    >
+      <ForwardRef
+        to="/article/1"
+      >
+        <ForwardRef
+          body={false}
+          className="mt-3 rounded-0 p-1 shadow-sm"
+        >
+          <ForwardRef
+            className="flex-row-reverse flex-md-row"
+            noGutters={true}
+          >
+            <ForwardRef
+              className="pr-2 d-flex align-items-center content-card__image_wrapper"
+              xs={4}
+            >
+              <ForwardRef
+                className="rounded-0 img-fluid"
+                src="undefined"
+                variant={null}
+              />
+            </ForwardRef>
+            <ForwardRef
+              xs={8}
+            >
+              <ForwardRef
+                className="p-1"
+              >
+                <ForwardRef>
+                  <span>
+                    Zeppelin
+                  </span>
+                  <br />
+                  <span>
+                    June 20, 2019
+                  </span>
+                  <br />
+                </ForwardRef>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "An article about music.",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+    </div>
+    <div
+      className="content-card"
+    >
+      <ForwardRef
+        to="/article/2"
+      >
+        <ForwardRef
+          body={false}
+          className="mt-3 rounded-0 p-1 shadow-sm"
+        >
+          <ForwardRef
+            className="flex-row-reverse flex-md-row"
+            noGutters={true}
+          >
+            <ForwardRef
+              className="pr-2 d-flex align-items-center content-card__image_wrapper"
+              xs={4}
+            >
+              <ForwardRef
+                className="rounded-0 img-fluid"
+                src="undefined"
+                variant={null}
+              />
+            </ForwardRef>
+            <ForwardRef
+              xs={8}
+            >
+              <ForwardRef
+                className="p-1"
+              >
+                <ForwardRef>
+                  <span>
+                    Floyd
+                  </span>
+                  <br />
+                  <span>
+                    June 20, 2019
+                  </span>
+                  <br />
+                </ForwardRef>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "An article about music.",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+    </div>
+    <div
+      className="content-card"
+    >
+      <ForwardRef
+        to="/article/3"
+      >
+        <ForwardRef
+          body={false}
+          className="mt-3 rounded-0 p-1 shadow-sm"
+        >
+          <ForwardRef
+            className="flex-row-reverse flex-md-row"
+            noGutters={true}
+          >
+            <ForwardRef
+              className="pr-2 d-flex align-items-center content-card__image_wrapper"
+              xs={4}
+            >
+              <ForwardRef
+                className="rounded-0 img-fluid"
+                src="undefined"
+                variant={null}
+              />
+            </ForwardRef>
+            <ForwardRef
+              xs={8}
+            >
+              <ForwardRef
+                className="p-1"
+              >
+                <ForwardRef>
+                  <span>
+                    Hendrix
+                  </span>
+                  <br />
+                  <span>
+                    June 20, 2019
+                  </span>
+                  <br />
+                </ForwardRef>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "An article about music.",
+                    }
+                  }
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>
+    </div>
+  </div>
+</ForwardRef>
+`;

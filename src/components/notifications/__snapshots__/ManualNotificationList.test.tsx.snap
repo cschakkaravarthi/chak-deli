@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationList renders correctly with notifications 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <ManualNotificationList
+    notificationList={
+      Object {
+        "alerts": Object {
+          "notifications": Array [
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+          ],
+          "total": 0,
+        },
+        "approvals": Object {
+          "notifications": Array [
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+          ],
+          "total": 0,
+        },
+      }
+    }
+    setFilterFacet={[Function]}
+  />
+</Router>
+`;
+
+exports[`NotificationList renders null without notifications 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <ManualNotificationList
+    notificationList={
+      Object {
+        "alerts": Object {
+          "notifications": Array [
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+          ],
+          "total": 0,
+        },
+        "approvals": Object {
+          "notifications": Array [
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+            Object {
+              "body_full": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "categories": Array [
+                Object {
+                  "drupal_id": 1,
+                  "title": "Categories",
+                },
+              ],
+              "created": 1571873331,
+              "isNew": true,
+              "notificationType": "maintenence",
+              "summary": "This is a notification about a very important event that you should be aware of! This is a notification about a very important event that you should be aware of!",
+              "title": "Emergency Alert - Los Angeles Area Earthquake",
+              "type": "notification",
+            },
+          ],
+          "total": 0,
+        },
+      }
+    }
+    setFilterFacet={[Function]}
+  />
+</Router>
+`;

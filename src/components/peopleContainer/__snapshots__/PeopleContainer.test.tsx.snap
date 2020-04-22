@@ -1,0 +1,687 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleContainer renders null 1`] = `
+<React.Fragment>
+  <p
+    className="font-size-xl mb-3 mt-5"
+  >
+    <b>
+      People
+    </b>
+  </p>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef>
+      <ForwardRef
+        className="d-flex d-md-none justify-content-start justify-content-md-end py-3"
+        inline={false}
+      >
+        <ForwardRef
+          className="d-flex justify-content-start justify-content-md-end mr-3 mb-0 align-items-center"
+          column={false}
+          srOnly={false}
+        >
+          By letter:
+        </ForwardRef>
+        <ForwardRef
+          as="select"
+          className="w-auto rounded-0"
+          id="filter-alphabet"
+          name="filter-alphabet"
+          onChange={[Function]}
+          size="sm"
+        >
+          <option
+            value={0}
+          >
+            Choose a letter
+          </option>
+          <option
+            value="a"
+          >
+            A
+          </option>
+          <option
+            value="b"
+          >
+            B
+          </option>
+          <option
+            value="c"
+          >
+            C
+          </option>
+          <option
+            value="d"
+          >
+            D
+          </option>
+          <option
+            value="e"
+          >
+            E
+          </option>
+          <option
+            value="f"
+          >
+            F
+          </option>
+          <option
+            value="g"
+          >
+            G
+          </option>
+          <option
+            value="h"
+          >
+            H
+          </option>
+          <option
+            value="i"
+          >
+            I
+          </option>
+          <option
+            value="j"
+          >
+            J
+          </option>
+          <option
+            value="k"
+          >
+            K
+          </option>
+          <option
+            value="l"
+          >
+            L
+          </option>
+          <option
+            value="m"
+          >
+            M
+          </option>
+          <option
+            value="n"
+          >
+            N
+          </option>
+          <option
+            value="o"
+          >
+            O
+          </option>
+          <option
+            value="p"
+          >
+            P
+          </option>
+          <option
+            value="q"
+          >
+            Q
+          </option>
+          <option
+            value="r"
+          >
+            R
+          </option>
+          <option
+            value="s"
+          >
+            S
+          </option>
+          <option
+            value="t"
+          >
+            T
+          </option>
+          <option
+            value="u"
+          >
+            U
+          </option>
+          <option
+            value="v"
+          >
+            V
+          </option>
+          <option
+            value="w"
+          >
+            W
+          </option>
+          <option
+            value="x"
+          >
+            X
+          </option>
+          <option
+            value="y"
+          >
+            Y
+          </option>
+          <option
+            value="z"
+          >
+            Z
+          </option>
+        </ForwardRef>
+      </ForwardRef>
+      <div
+        className="py-3 alphabetical-line d-none d-md-flex flex-wrap justify-content-md-between"
+      >
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="A"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="B"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="C"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="D"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="E"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="F"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="G"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="H"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="I"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="J"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="K"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="L"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="M"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="N"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="O"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="P"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Q"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="R"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="S"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="T"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="U"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="V"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="W"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="X"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Y"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Z"
+          onClick={[Function]}
+        />
+      </div>
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    className="row-cols-lg-5"
+    noGutters={false}
+  />
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef />
+  </ForwardRef>
+</React.Fragment>
+`;
+
+exports[`PeopleContainer renders peopleContainer 1`] = `
+<React.Fragment>
+  <p
+    className="font-size-xl mb-3 mt-5"
+  >
+    <b>
+      People
+    </b>
+  </p>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef>
+      <ForwardRef
+        className="d-flex d-md-none justify-content-start justify-content-md-end py-3"
+        inline={false}
+      >
+        <ForwardRef
+          className="d-flex justify-content-start justify-content-md-end mr-3 mb-0 align-items-center"
+          column={false}
+          srOnly={false}
+        >
+          By letter:
+        </ForwardRef>
+        <ForwardRef
+          as="select"
+          className="w-auto rounded-0"
+          id="filter-alphabet"
+          name="filter-alphabet"
+          onChange={[Function]}
+          size="sm"
+        >
+          <option
+            value={0}
+          >
+            Choose a letter
+          </option>
+          <option
+            value="a"
+          >
+            A
+          </option>
+          <option
+            value="b"
+          >
+            B
+          </option>
+          <option
+            value="c"
+          >
+            C
+          </option>
+          <option
+            value="d"
+          >
+            D
+          </option>
+          <option
+            value="e"
+          >
+            E
+          </option>
+          <option
+            value="f"
+          >
+            F
+          </option>
+          <option
+            value="g"
+          >
+            G
+          </option>
+          <option
+            value="h"
+          >
+            H
+          </option>
+          <option
+            value="i"
+          >
+            I
+          </option>
+          <option
+            value="j"
+          >
+            J
+          </option>
+          <option
+            value="k"
+          >
+            K
+          </option>
+          <option
+            value="l"
+          >
+            L
+          </option>
+          <option
+            value="m"
+          >
+            M
+          </option>
+          <option
+            value="n"
+          >
+            N
+          </option>
+          <option
+            value="o"
+          >
+            O
+          </option>
+          <option
+            value="p"
+          >
+            P
+          </option>
+          <option
+            value="q"
+          >
+            Q
+          </option>
+          <option
+            value="r"
+          >
+            R
+          </option>
+          <option
+            value="s"
+          >
+            S
+          </option>
+          <option
+            value="t"
+          >
+            T
+          </option>
+          <option
+            value="u"
+          >
+            U
+          </option>
+          <option
+            value="v"
+          >
+            V
+          </option>
+          <option
+            value="w"
+          >
+            W
+          </option>
+          <option
+            value="x"
+          >
+            X
+          </option>
+          <option
+            value="y"
+          >
+            Y
+          </option>
+          <option
+            value="z"
+          >
+            Z
+          </option>
+        </ForwardRef>
+      </ForwardRef>
+      <div
+        className="py-3 alphabetical-line d-none d-md-flex flex-wrap justify-content-md-between"
+      >
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="A"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="B"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="C"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="D"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="E"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="F"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="G"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="H"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="I"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="J"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="K"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="L"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="M"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="N"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="O"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="P"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Q"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="R"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="S"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="T"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="U"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="V"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="W"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="X"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Y"
+          onClick={[Function]}
+        />
+        <Unknown
+          className="pr-3 p-md-0"
+          isActive={false}
+          letter="Z"
+          onClick={[Function]}
+        />
+      </div>
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    className="row-cols-lg-5"
+    noGutters={false}
+  />
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef />
+  </ForwardRef>
+</React.Fragment>
+`;

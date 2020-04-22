@@ -1,0 +1,35 @@
+import { Reducer } from 'redux';
+import { SearchResultState } from '../types/searchResultTypes';
+export declare const initialState: {
+    articles: never[];
+    events: never[];
+    people: never[];
+    departments: never[];
+    links: never[];
+    pages: never[];
+    office: never[];
+    documents: never[];
+    knowledgeBase: never[];
+    catalog: never[];
+    searchSuggestions: never[];
+    articlesCount: number;
+    eventsCount: number;
+    peopleCount: number;
+    linksCount: number;
+    departmentsCount: number;
+    pagesCount: number;
+    officeCount: number;
+    documentsCount: number;
+    knowledgeBaseCount: number;
+    catalogCount: number;
+    totalCount: number;
+    isFetch: boolean;
+    selectedType: string;
+    selectedFacet: string;
+    isLastPage: boolean;
+    pageCount: number;
+    spellingSuggestion: string;
+};
+declare const searchResultReducers: Reducer<SearchResultState, any>;
+export default searchResultReducers;
+//# sourceMappingURL=searchResultReducers.d.ts.map

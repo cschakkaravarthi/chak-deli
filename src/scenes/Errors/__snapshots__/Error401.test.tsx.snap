@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error401 renders Error401 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    isShowBrowsers={false}
+    message="User is not logged in."
+    title="Error 401"
+  />
+</div>
+`;

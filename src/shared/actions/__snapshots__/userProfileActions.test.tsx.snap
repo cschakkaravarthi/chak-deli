@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileActions creates a loadOrgChartDetails action 1`] = `
+Object {
+  "chartDataError": false,
+  "isFetchingOrgChart": false,
+  "orgChartusers": Object {
+    "manager": Object {
+      "name": "Tom Mitchell",
+      "title": "CEO",
+    },
+    "subordinates": Array [
+      Object {
+        "name": "Harman Kaur",
+        "title": "Business Analyst",
+      },
+      Object {
+        "name": "Ed Rowell",
+        "title": "Sr. Business Analyst",
+      },
+    ],
+    "user": Object {
+      "name": "Luz Lacson",
+    },
+  },
+  "type": "SET_ORG_CHART",
+}
+`;
+
+exports[`UserProfileActions creates a setUserProfileDetails action 1`] = `
+Object {
+  "type": "SET_USER_PROFILE_DETAILS",
+  "userProfile": Object {
+    "aboutMe": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "anniversaryDay": "1",
+    "anniversaryMonth": "7",
+    "avatar": Object {
+      "photo": "",
+      "siteCode": "",
+    },
+    "birthMonth": "1",
+    "birthday": "13",
+    "companyName": "Universal Music Group",
+    "currentlyWorking": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "department": "UMG Corporate IT",
+    "desk": "1A",
+    "email": "doris.aves@umusic.com",
+    "error": Object {
+      "errorDetails": Object {},
+      "isError": false,
+      "message": "",
+    },
+    "firstName": "Luz",
+    "fullName": "Luz Lacson",
+    "jobLocation": "Woodland Hills - UMG",
+    "languagesSpoken": "English, Spanish",
+    "lastName": "Lacson",
+    "mobileNumber": "818.264.4243",
+    "networkID": "AvesD",
+    "nickname": "Chi",
+    "officeNumber": "818.212.0897",
+    "photo": Object {
+      "photo": "",
+      "siteCode": "",
+    },
+    "professionalSkills": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "profilePicture": "",
+    "profitCenter": "USIC",
+    "title": "Senior Director",
+  },
+}
+`;

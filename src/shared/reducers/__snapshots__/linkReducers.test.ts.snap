@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`linkReducers Handles LOAD_MINISITE_LINKS action 1`] = `
+Object {
+  "facilities": Array [],
+  "facilitiesError": false,
+  "groups": Array [],
+  "links": Array [],
+  "minisiteLinks": Object {
+    "undefined": Object {
+      "content": Array [
+        Object {
+          "categories": Array [
+            Object {
+              "drupal_id": 2,
+              "icon": null,
+              "title": "HR",
+            },
+          ],
+          "category_ancestors": Array [
+            Object {
+              "drupal_id": 2,
+              "icon": null,
+              "title": "HR",
+            },
+          ],
+          "drupal_id": 4,
+          "language": "en",
+          "owner": Array [],
+          "promote": true,
+          "summary": "test summary",
+          "title": "Zebra",
+          "type": "link",
+          "url": "https://www.zebra.com",
+        },
+      ],
+      "drupal_id": 23,
+      "title": "HR",
+    },
+  },
+  "quickTools": Array [],
+}
+`;
+
+exports[`linkReducers Handles LOAD_QUICK_TOOLS action 1`] = `
+Object {
+  "facilities": Array [],
+  "facilitiesError": false,
+  "groups": Array [],
+  "links": Array [],
+  "minisiteLinks": Object {},
+  "quickTools": undefined,
+}
+`;
+
+exports[`linkReducers Handles loadLinks action 1`] = `
+Object {
+  "facilities": Array [],
+  "facilitiesError": false,
+  "groups": Object {
+    "content": Array [
+      Object {
+        "categories": Array [
+          Object {
+            "drupal_id": 2,
+            "icon": null,
+            "title": "HR",
+          },
+        ],
+        "category_ancestors": Array [
+          Object {
+            "drupal_id": 2,
+            "icon": null,
+            "title": "HR",
+          },
+        ],
+        "drupal_id": 4,
+        "language": "en",
+        "owner": Array [],
+        "promote": true,
+        "summary": "test summary",
+        "title": "Zebra",
+        "type": "link",
+        "url": "https://www.zebra.com",
+      },
+    ],
+    "drupal_id": 23,
+    "title": "HR",
+  },
+  "links": Array [],
+  "minisiteLinks": Object {},
+  "quickTools": Array [],
+}
+`;

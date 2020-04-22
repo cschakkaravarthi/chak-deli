@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandsLabels renders BrandsLabels 1`] = `
+<ForwardRef
+  className="mt-5"
+  fluid={false}
+>
+  <ForwardRef
+    noGutters={false}
+  >
+    <h1
+      className="font-size-xl p-3 pb-4 font-weight-bold"
+    >
+      Brands & Labels
+    </h1>
+  </ForwardRef>
+  <ForwardRef
+    className="mb-5"
+    noGutters={false}
+  />
+</ForwardRef>
+`;

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+set -ev
+
+DOCKER_IMAGE=""
+if [[ -f docker-image.txt ]]; then
+  DOCKER_IMAGE=$(<docker-image.txt)
+fi
+
+DEPLOY_FEATURE="delivery"
+if [[ -f git_branch.txt ]]; then
+  DEPLOY_FEATURE="delivery-$(<git_branch.txt)"
+fi
+
+cat > .env <<-EOF
+ENV=$ENV
+VAULT_ADDR=https://vault.umusic.net
+VAULT_LOGIN_METHOD=userpass
+VAULT_USER=$VAULT_USR
+VAULT_PASS=$VAULT_PSW
+EOF
+
+cp docker-compose.yml docker-compose.yml.bak
+
+echo "DOCKER IMAGE: $(<docker-image.txt)"
+
+sed -e "s,image:.*,image: $(<docker-image.txt)," docker-compose.yml > docker-compose.yml.tmp && \
+  mv docker-compose.yml.tmp docker-compose.yml
+
+if [ "$ENV" != "prod" ]; then
+  sed -e "s,replicas:.*,replicas: 2," docker-compose.yml > docker-compose.yml.tmp && \
+    mv docker-compose.yml.tmp docker-compose.yml
+fi
+
+cat docker-compose.yml
+
+aws s3 cp docker-compose.yml s3://aws58-devops/$ENV/$DEPLOY_FEATURE/docker-compose.yml
+
+if [[ -f .env ]]; then
+  aws s3 cp .env s3://aws58-devops/$ENV/$DEPLOY_FEATURE/.env
+fi
+
+if [[ -f git.log ]]; then
+  aws s3 cp git.log s3://aws58-devops/$ENV/$DEPLOY_FEATURE/git.log
+fi

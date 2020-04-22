@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateAppreciationCard renders a CreateAppreciationCard 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    cardTemplates={Array []}
+    clearNewCardForm={[MockFunction]}
+    clearSearchSuggestionList={[MockFunction]}
+    currentUsername={
+      Object {
+        "family_name": "Retana",
+        "given_name": "Marcelo",
+      }
+    }
+    getAppreciationCardTemplates={[MockFunction]}
+    handlePreviewClick={[MockFunction]}
+    handleSelectCard={[MockFunction]}
+    newAppreciationCardForm={
+      Object {
+        "cardMessage": "Card Message",
+        "recipientEmail": "recipient@email.com",
+        "recipientFirstName": "First Name",
+        "recipientLastName": "Last Name",
+        "recipientSupervisorEmail": "supervisor@email.com",
+        "templateId": "templateId1",
+      }
+    }
+    searchSuggestions={Array []}
+    sendAppreciationCard={[MockFunction]}
+    setDetailGroup={[MockFunction]}
+    setNewCardDetail={[MockFunction]}
+    showSentSucessAlert={false}
+    toggleSentSuccessAlert={[MockFunction]}
+  />
+</Router>
+`;

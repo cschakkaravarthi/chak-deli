@@ -1,0 +1,45 @@
+import { FC } from 'react';
+import Article from '../../shared/models/Article.model';
+import Event from '../../shared/models/Event.model';
+import People from '../../shared/models/People.model';
+import { Department } from '../../shared/models/Department.model';
+import Link from '../../shared/models/Link.model';
+import { PageSearch } from '../../shared/models/Page.model';
+import { OfficeSearch } from '../../shared/models/Office.model';
+import { DocumentSearch } from '../../shared//models/Document.model';
+import { KnowledgeSearch } from '../../shared/models/KnowledgeBase.model';
+import { CatalogSearch } from '../../shared/models/Catalog.model';
+interface Props {
+    searchKeyword?: string;
+    articles?: Article[];
+    events?: Event[];
+    people?: People[];
+    departments?: Department[];
+    links?: Link[];
+    pages?: PageSearch[];
+    office?: OfficeSearch[];
+    documents?: DocumentSearch[];
+    knowledgeBase?: KnowledgeSearch[];
+    catalog?: CatalogSearch[];
+    articlesCount?: number;
+    eventsCount?: number;
+    peopleCount?: number;
+    departmentsCount?: number;
+    linksCount?: number;
+    pagesCount?: number;
+    officeCount?: number;
+    documentsCount?: number;
+    knowledgeBaseCount?: number;
+    catalogCount?: number;
+    totalCount?: number;
+    typeInQuery?: string;
+    setSelectedType?: (type: string) => void;
+    isLastPage?: boolean;
+    triggerFetchSearchResults?: () => Promise<void>;
+    spellingSuggestion?: string;
+    handleAddToContacts?: (email: string | undefined) => void;
+    isFetchingData?: boolean;
+}
+declare const SearchResults: FC<Props>;
+export default SearchResults;
+//# sourceMappingURL=searchResults.d.ts.map

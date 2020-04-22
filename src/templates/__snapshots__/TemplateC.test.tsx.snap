@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateC renders correctly 1`] = `
+<React.Fragment>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <UNDEFINED
+        limit="4"
+        owner="1"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <UNDEFINED
+        category="3"
+        multiColumn={false}
+        showImages={false}
+      />
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    className="px-3 pt-3"
+    noGutters={false}
+  >
+    <Unknown
+      title=""
+      topBorder="darkTurquoise"
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae odio vehicula nisl lacinia luctus non et libero. Quisque leo tortor, lacinia et porttitor vel, dignissim at sapien.</p>",
+          }
+        }
+      />
+    </Unknown>
+  </ForwardRef>
+</React.Fragment>
+`;

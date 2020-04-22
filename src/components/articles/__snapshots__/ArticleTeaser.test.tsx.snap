@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleTeaser renders correctly with article 1`] = `
+<ForwardRef
+  className="text-decoration-none article-teaser"
+  to="/article/1"
+>
+  <ForwardRef
+    body={false}
+    className="mb-3 rounded-0 p-2 shadow-sm"
+    style={
+      Object {
+        "maxWidth": undefined,
+      }
+    }
+  >
+    <ForwardRef
+      className="rounded-0"
+      src="undefined"
+      variant="top"
+    />
+    <ForwardRef>
+      <small
+        className="card-title text-small text-dark article-card-title mb-0"
+      >
+        <strong>
+          Test Article
+        </strong>
+      </small>
+      <ForwardRef
+        className="text-secondary mb-0"
+      >
+        <small>
+          September 17, 2019
+        </small>
+      </ForwardRef>
+      <ForwardRef
+        className="text-secondary mb-0"
+      >
+        <small>
+          <span>
+            Corporate Communications
+          </span>
+        </small>
+      </ForwardRef>
+      <ForwardRef
+        className="text-secondary mb-0"
+      >
+        <small>
+          <span>
+            Industry News
+          </span>
+        </small>
+      </ForwardRef>
+      <small
+        className="text-secondary article-card-title"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "summary content",
+          }
+        }
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;

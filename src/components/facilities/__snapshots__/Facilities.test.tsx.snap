@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facilities component renders error component 1`] = `null`;
+
+exports[`Facilities component renders null without facility 1`] = `null`;
+
+exports[`Facilities component renders with offices 1`] = `
+<Unknown
+  title="Zebra"
+  titleClass="font-size-base font-weight-bold"
+  topBorder="darkTurquoise"
+  wrapperClass="h-100"
+>
+  <p>
+    test summary
+  </p>
+  <div>
+    <a
+      href="https://www.zebra.com"
+      target="_blank"
+    >
+      <u
+        className="text-uppercase font-weight-bold font-size-sm"
+      >
+        more info
+      </u>
+    </a>
+  </div>
+</Unknown>
+`;

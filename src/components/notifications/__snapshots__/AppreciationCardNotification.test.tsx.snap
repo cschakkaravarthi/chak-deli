@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppreciationCardNotification renders properly 1`] = `
+<div
+  className="mb-3 mt-4"
+>
+  <Unknown
+    title="Test title"
+    type="appreciation"
+    variant="notification"
+  />
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagerInfo renders correctly with info 1`] = `
+Array [
+  <div
+    className="manager-info__container"
+  >
+    <div
+      className="manager__icon"
+    >
+      <img
+        height={20}
+        src="test-file-stub"
+        width={20}
+      />
+    </div>
+    <div
+      className="manager__title"
+    >
+      <p>
+        Manager:
+      </p>
+    </div>
+    <div
+      className="manager__info"
+    >
+      <div
+        className="manager__name"
+      >
+        <button
+          className="button--anchor"
+          onClick={[Function]}
+        >
+          Lacson
+          , 
+          Luz
+        </button>
+      </div>
+      <div
+        className="manager__position"
+      >
+        <p>
+          Senior Director
+        </p>
+        <p>
+          UMG Corporate IT
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="manager__line"
+  >
+    <span />
+  </div>,
+]
+`;

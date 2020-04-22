@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileDeactivated renders ProfileDeactivated 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    isShowBrowsers={false}
+    message="This user is not found."
+    title="Sorry, we can’t find that person."
+  />
+</div>
+`;

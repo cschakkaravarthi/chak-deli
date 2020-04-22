@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentToShow for search result renders null 1`] = `null`;
+
+exports[`ComponentToShow for search result renders properly 1`] = `
+<React.Fragment>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="mt-5"
+      md="12"
+    >
+      <p
+        className="font-size-title"
+      >
+        <b>
+          People
+        </b>
+      </p>
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    noGutters={false}
+  >
+    <p>
+      Test child component
+    </p>
+  </ForwardRef>
+  <ForwardRef
+    className="see-all-section text-condensed g700-text-clr"
+    noGutters={false}
+  >
+    <ForwardRef
+      md="12"
+    >
+      <u
+        onClick={[Function]}
+      >
+        See all 1 results in People
+      </u>
+    </ForwardRef>
+  </ForwardRef>
+</React.Fragment>
+`;
+
+exports[`ComponentToShow for search result renders skeleton 1`] = `
+<React.Fragment>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="mt-5"
+      md="12"
+    >
+      <p
+        className="font-size-title"
+      >
+        <b>
+          <G
+            circle={false}
+            count={1}
+            duration={1.2}
+            height={null}
+            width={100}
+            wrapper={null}
+          />
+        </b>
+      </p>
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="mb-3 mb-md-4"
+      md={6}
+    >
+      <Unknown
+        isFetching={true}
+        title=""
+        type="people"
+        variant="search"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-3 mb-md-4"
+      md={6}
+    >
+      <Unknown
+        isFetching={true}
+        title=""
+        type="people"
+        variant="search"
+      />
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef
+    className="see-all-section text-condensed g700-text-clr"
+    noGutters={false}
+  >
+    <ForwardRef
+      md="12"
+    >
+      <u
+        onClick={[Function]}
+      >
+        See all 0 results in People
+      </u>
+    </ForwardRef>
+  </ForwardRef>
+</React.Fragment>
+`;

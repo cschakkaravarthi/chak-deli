@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleTeaser renders correctly with article 1`] = `
+<div>
+  <div>
+    <span>
+      !
+    </span>
+     
+    Answer to the Ultimate Question of Life, the Universe, and Everything
+  </div>
+  <div>
+    <span>
+      Deep Thought
+    </span>
+    <div>
+      <a
+        href="http://google.com/"
+      >
+        Details
+      </a>
+      <br />
+      <ForwardRef
+        role="toolbar"
+      >
+        <ForwardRef
+          active={false}
+          className="mx-1"
+          disabled={false}
+          onClick={[Function]}
+          size="sm"
+          type="button"
+          variant="outline-danger"
+        >
+          Reject
+        </ForwardRef>
+        <ForwardRef
+          active={false}
+          className="mx-1"
+          disabled={false}
+          onClick={[Function]}
+          size="sm"
+          type="button"
+          variant="outline-primary"
+        >
+          Approve
+        </ForwardRef>
+      </ForwardRef>
+    </div>
+  </div>
+</div>
+`;

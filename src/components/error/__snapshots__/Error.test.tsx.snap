@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleTeaser renders correctly with article 1`] = `
+<ForwardRef
+  fluid={false}
+>
+  <p
+    className="font-size-base font-weight-bold text-center p-5"
+  >
+    Error test
+  </p>
+</ForwardRef>
+`;

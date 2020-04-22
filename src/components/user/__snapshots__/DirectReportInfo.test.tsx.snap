@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DirectReportInfo renders correctly with info 1`] = `
+<div
+  className="direct-report-info__container"
+>
+  <div
+    className="direct-report__icon"
+  >
+    <img
+      height={20}
+      src="test-file-stub"
+      width={20}
+    />
+  </div>
+  <div
+    className="direct-report__title"
+  >
+    <p>
+      Direct Reports:
+    </p>
+  </div>
+  <div
+    className="direct-report__info"
+  >
+    <div
+      className="direct-report__name"
+    >
+      <button
+        className="button--anchor"
+        onClick={[Function]}
+      >
+        Artrina
+        , 
+        Hines
+      </button>
+      <button
+        className="button--anchor"
+        onClick={[Function]}
+      >
+        Ann
+        , 
+        Vanderberg
+      </button>
+      <button
+        className="button--anchor"
+        onClick={[Function]}
+      >
+        Apollo
+        , 
+        Capito
+      </button>
+      <button
+        className="button--anchor"
+        onClick={[Function]}
+      >
+        Christopher
+        , 
+        Gillis
+      </button>
+    </div>
+  </div>
+</div>
+`;

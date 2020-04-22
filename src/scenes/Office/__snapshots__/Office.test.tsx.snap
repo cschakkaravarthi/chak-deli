@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Office scene renders with offices 1`] = `
+<ForwardRef
+  className="office my-5"
+  fluid={false}
+>
+  <p
+    className="font-size-xl mb-5"
+  >
+    <b>
+      Woodland Hills
+    </b>
+  </p>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      lg="8"
+    >
+      <Unknown
+        address={
+          <div
+            className="address-top"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>21301 Burbank Blvd</p>
+
+<p>Woodland Hills, CA 91367</p>
+",
+              }
+            }
+          />
+        }
+        addressOnMap="21301 Burbank Blvd Woodland Hills, CA 91367"
+        title="Address"
+        titleClass="font-size-sm"
+        type="map"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mt-4 mt-lg-0"
+      lg="4"
+    >
+      <Unknown
+        title="Office hours"
+        titleClass="font-size-base font-weight-bold"
+        topBorder="darkTurquoise"
+        wrapperClass="h-100"
+      >
+        <div
+          className="font-size-sm"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>MON - FRI: 7:00AM - 9:00PM</p>
+
+<p>SAT:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8:00AM - 8:00PM</p>
+
+<p>SUN:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8:00AM - 6:00PM</p>
+",
+            }
+          }
+        />
+      </Unknown>
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;

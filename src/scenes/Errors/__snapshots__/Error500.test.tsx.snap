@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error500 renders Error500 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    isShowBrowsers={false}
+    message="Server error. It's not you - It's me."
+    title="Error 500"
+  />
+</div>
+`;

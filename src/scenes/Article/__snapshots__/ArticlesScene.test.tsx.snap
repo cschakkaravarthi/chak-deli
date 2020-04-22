@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed renders with articles 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    content={
+      Array [
+        Object {
+          "articleCategory": Array [
+            Object {
+              "drupal_id": 45,
+              "icon": null,
+              "title": "Industry News",
+              "weight": 1,
+            },
+          ],
+          "body_full": "<p><strong>An Article!</strong>&nbsp;About&nbsp;<em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.</p>",
+          "categories": Array [
+            Object {
+              "drupal_id": 1,
+              "icon": "test.png",
+              "title": "test",
+              "weight": 1,
+            },
+          ],
+          "category_ancestors": Array [],
+          "created": 1568727365,
+          "drupal_id": 1,
+          "image_uri": Object {
+            "source": "undefined",
+            "umgc_banner": "undefined",
+            "umgc_embedded": "undefined",
+            "umgc_featured": "undefined",
+            "umgc_thumbnail": "undefined",
+          },
+          "likedByUser": true,
+          "likesCount": 5,
+          "owner": Array [
+            Object {
+              "drupal_id": 1,
+              "icon": null,
+              "title": "Corporate Communications",
+              "weight": 0,
+            },
+          ],
+          "summary": "summary content",
+          "tags": Array [
+            Object {
+              "drupal_id": 1,
+              "title": "Company news article 6",
+            },
+          ],
+          "title": "Test Article",
+          "type": "article",
+        },
+      ]
+    }
+    fetchContent={[MockFunction]}
+  />
+</Router>
+`;

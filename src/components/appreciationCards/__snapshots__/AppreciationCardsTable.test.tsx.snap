@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppreciationCardsTable renders correctly 1`] = `
+<React.Fragment>
+  <div
+    className="border p-3"
+  >
+    <Unknown
+      leftTitle="From"
+      rightTitle="Date"
+    />
+    <Unknown
+      MainLink={[Function]}
+      date="Dec 20, 2019"
+      leftTitle="Meena Belagam"
+      wrapperClassName="mt-3"
+    />
+  </div>
+  <div
+    className="mt-3 text-center"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <small
+      className="btn"
+      onClick={[Function]}
+    >
+      <u
+        className="font-weight-bold my-toolkit-spacing"
+      >
+        VIEW ALL CARDS
+      </u>
+    </small>
+  </div>
+</React.Fragment>
+`;
+
+exports[`AppreciationCardsTable renders null when no data info is present 1`] = `
+<React.Fragment>
+  <div
+    className="border p-3"
+  >
+    <Unknown
+      leftTitle="From"
+      rightTitle="Date"
+    />
+  </div>
+  <div
+    className="mt-3 text-center"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <small
+      className="btn"
+      onClick={[Function]}
+    >
+      <u
+        className="font-weight-bold my-toolkit-spacing"
+      >
+        VIEW ALL CARDS
+      </u>
+    </small>
+  </div>
+</React.Fragment>
+`;

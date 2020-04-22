@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateA renders correctly 1`] = `
+<React.Fragment>
+  <UNDEFINED
+    category="3"
+    mdCols="col-md-3"
+  />
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <UNDEFINED
+        owner="1"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="py-md-5 py-2"
+      md={6}
+    >
+      <UNDEFINED
+        owner="1"
+      />
+    </ForwardRef>
+  </ForwardRef>
+  <UNDEFINED
+    category="4"
+    mdCols="col-md-3"
+    multiColumn={true}
+    showImages={false}
+  />
+</React.Fragment>
+`;

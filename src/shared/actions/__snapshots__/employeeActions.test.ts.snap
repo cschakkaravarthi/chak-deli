@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`employeeActions creates a loadEmployees action 1`] = `
+Object {
+  "employees": Array [
+    Object {
+      "articleCategory": Array [
+        Object {
+          "drupal_id": 45,
+          "icon": null,
+          "title": "Industry News",
+          "weight": 1,
+        },
+      ],
+      "body_full": "<p><strong>An Article!</strong>&nbsp;About&nbsp;<em>music</em>! This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content. This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.This is a paragraph with many lines of content.</p>",
+      "categories": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": "test.png",
+          "title": "test",
+          "weight": 1,
+        },
+      ],
+      "category_ancestors": Array [],
+      "created": 1568727365,
+      "drupal_id": 1,
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "likedByUser": true,
+      "likesCount": 5,
+      "owner": Array [
+        Object {
+          "drupal_id": 1,
+          "icon": null,
+          "title": "Corporate Communications",
+          "weight": 0,
+        },
+      ],
+      "summary": "summary content",
+      "tags": Array [
+        Object {
+          "drupal_id": 1,
+          "title": "Company news article 6",
+        },
+      ],
+      "title": "Test Article",
+      "type": "article",
+    },
+    Object {
+      "categories": Array [
+        Object {
+          "drupal_id": 2,
+          "icon": null,
+          "title": "HR",
+        },
+      ],
+      "category_ancestors": Array [
+        Object {
+          "drupal_id": 2,
+          "icon": null,
+          "title": "HR",
+        },
+      ],
+      "drupal_id": 4,
+      "language": "en",
+      "owner": Array [],
+      "promote": true,
+      "summary": "test summary",
+      "title": "Zebra",
+      "type": "link",
+      "url": "https://www.zebra.com",
+    },
+    Object {
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "document_uri": "s3://2019-11/Drupal screens_Observations.docx",
+      "drupal_id": 1,
+      "owner": Array [],
+      "summary": "test summary",
+      "title": "vonPfister",
+      "type": "Office",
+    },
+    Object {
+      "attachments": null,
+      "body_full": "<p>Some body text</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1568326940,
+      "drupal_id": 4,
+      "event_category": Array [
+        Object {
+          "drupal_id": 46,
+          "icon": null,
+          "title": "Industry Events",
+          "weight": 1,
+        },
+      ],
+      "image_uri": Object {
+        "source": "undefined",
+        "umgc_banner": "undefined",
+        "umgc_embedded": "undefined",
+        "umgc_featured": "undefined",
+        "umgc_thumbnail": "undefined",
+      },
+      "language": "en",
+      "owner": Array [
+        Object {
+          "drupal_id": 3,
+          "icon": null,
+          "title": "Global Travel",
+          "weight": 0,
+        },
+      ],
+      "summary": "",
+      "tags": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "tags_ancestors": Array [
+        Object {
+          "drupal_id": 6,
+          "icon": null,
+          "title": "Lady Gaga",
+          "weight": 0,
+        },
+      ],
+      "title": "Test 1",
+      "type": "event",
+      "when_duration": 7199,
+      "when_end": 1568370600,
+      "when_start": 1568326940,
+      "where": "Over the Rainbow",
+    },
+    Object {
+      "body_full": "<p>Here are all the nice things you can do in the Woodland Hills office:<br />
+<br />
+- Yoga</p>
+
+<p>- Drink coffee</p>
+
+<p>- Play games</p>
+",
+      "categories": Array [],
+      "category_ancestors": Array [],
+      "created": 1574803435,
+      "drupal_id": 86,
+      "language": "en",
+      "owner": Array [],
+      "owner_name": "Communications",
+      "promote": false,
+      "summary": "More information on Recreation opportunities in the Woodland Hills office. This card is for a Page.",
+      "tags": Array [],
+      "tags_ancestors": Array [],
+      "title": "Recreation",
+      "type": "page",
+    },
+  ],
+  "type": "LOAD_EMPLOYEE_SERVICES",
+}
+`;

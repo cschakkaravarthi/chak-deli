@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error404 renders Error404 1`] = `
+<div
+  className="mb-5"
+>
+  <Unknown
+    backgroundImage="test-file-stub"
+    isShowBrowsers={false}
+    message="Page or resource not found at this URL."
+    title="Error 404"
+  />
+</div>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleCard for search result renders correctly with props 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Unknown
+    people={
+      Object {
+        "avatar": Object {
+          "photo": "",
+        },
+        "company": "n/a",
+        "costCenter": "GER30/DE050075",
+        "country": "Germany",
+        "department": "Sales",
+        "email": "Bastian.vonPfister@studiocanal.de",
+        "employeeNumber": "",
+        "employeeType": "3rd Party",
+        "firstName": "Bastian",
+        "fullName": "Bastian vonPfister",
+        "lastName": "vonPfister",
+        "location": "",
+        "loginId": "Balasua2",
+        "managerName": "Joerg Bromberg",
+        "mobileNumber": "",
+        "phoneNumber": "+49 30 810969 213",
+        "photo": Object {
+          "photo": "",
+        },
+        "prefLanguage": "",
+        "siteCode": "EXTNL",
+        "title": "Manager Business Analysis & Commercial P",
+        "voipNumber": "",
+      }
+    }
+  />
+</Router>
+`;

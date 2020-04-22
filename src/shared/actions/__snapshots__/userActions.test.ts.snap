@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userActions creates a loadUsers action 1`] = `
+Object {
+  "type": "LOAD_USERS",
+  "users": Array [
+    Object {
+      "department": "UMG Corporate IT",
+      "directReports": Array [
+        Object {
+          "firstName": "Artrina",
+          "lastName": "Hines",
+          "networkID": "HinesAr",
+        },
+        Object {
+          "firstName": "Ann",
+          "lastName": "Vanderberg",
+          "networkID": "VanderA",
+        },
+        Object {
+          "firstName": "Apollo",
+          "lastName": "Capito",
+          "networkID": "CapitoA",
+        },
+        Object {
+          "firstName": "Christopher",
+          "lastName": "Gillis",
+          "networkID": "GillisC",
+        },
+      ],
+      "email": "doris.aves@umusic.com",
+      "error": Object {
+        "errorDetails": Object {},
+        "isError": false,
+        "message": "",
+      },
+      "firstName": "Luz",
+      "jobTitle": "Senior Director",
+      "lastName": "Lacson",
+      "location": Object {
+        "address": "21301 Burbank Blvd",
+        "city": "Woodland Hills",
+        "country": "US",
+        "office": "Woodland Hills - UMG",
+        "postalCode": "91367",
+        "room": "A-31",
+        "state": "CA",
+      },
+      "networkID": "AvesD",
+      "phone": Array [
+        Object {
+          "cc": "US",
+          "num": "+1 221 397 5664",
+          "type": "Desk",
+        },
+        Object {
+          "cc": "US",
+          "num": "+1 413 286 671",
+          "type": "Mobile",
+        },
+      ],
+      "photo": Object {
+        "large": "test-file-stub",
+        "medium": "test-file-stub",
+        "small": "test-file-stub",
+        "thumb": "test-file-stub",
+      },
+      "preferredLanguage": "en-US",
+      "profilePicture": "",
+      "reportsTo": Object {
+        "department": "UMG Corp IT/R&C Run",
+        "firstName": "Andre",
+        "jobTitle": "Vice President, IT Run/Operations",
+        "lastName": "Abed",
+        "networkID": "AbedA",
+      },
+    },
+  ],
+}
+`;

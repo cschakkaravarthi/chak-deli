@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationList renders correctly with notifications 1`] = `
+<ForwardRef
+  horizontal={null}
+  variant="flush"
+>
+  <ForwardRef
+    active={false}
+    disabled={false}
+    variant={null}
+  >
+    <NotificationTeaser
+      notification={
+        Object {
+          "application": "Deep Thought",
+          "approve": true,
+          "description": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+          "detailsLink": "http://google.com/",
+          "id": 42,
+          "reject": true,
+          "viewed": true,
+        }
+      }
+    />
+  </ForwardRef>
+  <ForwardRef
+    active={false}
+    disabled={false}
+    variant={null}
+  >
+    <NotificationTeaser
+      notification={
+        Object {
+          "application": "Deep Thought",
+          "approve": true,
+          "description": "Answer to the Ultimate Question of Life, the Universe, and Everything",
+          "detailsLink": "http://google.com/",
+          "id": 24,
+          "reject": true,
+          "viewed": true,
+        }
+      }
+    />
+  </ForwardRef>
+</ForwardRef>
+`;

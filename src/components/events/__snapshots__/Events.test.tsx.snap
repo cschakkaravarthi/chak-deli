@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Events renders correctly with events 1`] = `
+<Unknown
+  HeaderLink={[Function]}
+  headerLinkText="All Events"
+  title="Events"
+  topBorder="yellow"
+  type="cardsInContainer"
+  variant="standard"
+>
+  <p>
+    Testing the children prop
+  </p>
+</Unknown>
+`;
+
+exports[`Events renders correctly with events and hide showHeaderLink 1`] = `
+<Unknown
+  HeaderLink={[Function]}
+  title="Events"
+  topBorder="yellow"
+  type="cardsInContainer"
+  variant="standard"
+>
+  <p>
+    Testing the showHeaderLink = false
+  </p>
+</Unknown>
+`;
+
+exports[`Events renders null without events 1`] = `null`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticlesMinimalList renders correctly 1`] = `
+<Unknown
+  title="News"
+  wrapperClass="h-100"
+>
+  <Unknown
+    MainLink={[Function]}
+    date="June 20, 2019"
+    imageUrl="undefined"
+    title="Zeppelin"
+    type="article"
+    variant="newsListEmbedded"
+  />
+  <Unknown
+    MainLink={[Function]}
+    date="June 20, 2019"
+    imageUrl="undefined"
+    title="Floyd"
+    type="article"
+    variant="newsListEmbedded"
+  />
+  <Unknown
+    MainLink={[Function]}
+    date="June 20, 2019"
+    imageUrl="undefined"
+    title="Hendrix"
+    type="article"
+    variant="newsListEmbedded"
+  />
+</Unknown>
+`;

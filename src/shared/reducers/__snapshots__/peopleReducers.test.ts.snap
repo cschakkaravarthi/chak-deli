@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`peopleReducers Handles LOAD_PEOPLE action 1`] = `
+Object {
+  "isLastPage": true,
+  "pageCount": 2,
+  "people": Array [
+    Object {
+      "avatar": Object {
+        "photo": "",
+      },
+      "company": "n/a",
+      "costCenter": "GER30/DE050075",
+      "country": "Germany",
+      "department": "Sales",
+      "email": "Bastian.vonPfister@studiocanal.de",
+      "employeeNumber": "",
+      "employeeType": "3rd Party",
+      "firstName": "Bastian",
+      "fullName": "Bastian vonPfister",
+      "lastName": "vonPfister",
+      "location": "",
+      "loginId": "Balasua2",
+      "managerName": "Joerg Bromberg",
+      "mobileNumber": "",
+      "phoneNumber": "+49 30 810969 213",
+      "photo": Object {
+        "photo": "",
+      },
+      "prefLanguage": "",
+      "siteCode": "EXTNL",
+      "title": "Manager Business Analysis & Commercial P",
+      "voipNumber": "",
+    },
+  ],
+}
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickTools Renders correctly 1`] = `
+<ForwardRef
+  body={false}
+  className="px-4 pb-5 pt-3 mt-3 card-notification-standard border-0 rounded-0"
+>
+  <h4
+    className="font-weight-bold mb-3"
+  >
+    Quick Tools
+  </h4>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="mb-3"
+      lg="4"
+      md="6"
+    >
+      <Unknown
+        Links={
+          Array [
+            Object {
+              "linkAction": [Function],
+              "linkTitle": "test summary",
+            },
+          ]
+        }
+        title="Zebra"
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`QuickTools no quick tools 1`] = `null`;

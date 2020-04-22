@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`appreciationReducers Handles TOGGLE_GLOBAL_TOAST action 1`] = `
+Object {
+  "currentUsername": Object {},
+  "displayToast": undefined,
+  "idAndIsShow": Object {},
+  "textarea": "",
+  "toastError": undefined,
+  "toastMessage": undefined,
+}
+`;

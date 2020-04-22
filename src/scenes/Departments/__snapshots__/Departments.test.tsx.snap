@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Department renders Departments 1`] = `
+<ForwardRef
+  className="content-full mt-5"
+  fluid={false}
+>
+  <p
+    className="font-size-xl"
+  >
+    <b>
+      Departments
+    </b>
+  </p>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+    <ForwardRef
+      className="mb-4"
+      lg={4}
+      md={6}
+    >
+      <Unknown
+        VisitLink={[Function]}
+        bodyContent="body Lorem ipsum dolor summary"
+        isFetching={false}
+        title="Finance"
+        type="department"
+        variant="standard"
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`Department tests empty departments array 1`] = `
+<ForwardRef
+  className="content-full mt-5"
+  fluid={false}
+>
+  <p
+    className="font-size-xl"
+  >
+    <b>
+      Departments
+    </b>
+  </p>
+  <ForwardRef
+    noGutters={false}
+  >
+    <Unknown />
+  </ForwardRef>
+</ForwardRef>
+`;

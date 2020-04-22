@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`officeReducers Handles LoadOfficeAction action 1`] = `
+Object {
+  "office": Object {
+    "ad_key": Array [
+      "USWHB",
+    ],
+    "addressMap": Object {
+      "addressForMap": "21301 Burbank Blvd Woodland Hills, CA 91367",
+      "addressTop": "<p>21301 Burbank Blvd</p>
+
+<p>Woodland Hills, CA 91367</p>
+",
+    },
+    "categories": Array [
+      Object {
+        "drupal_id": 118,
+        "icon": null,
+        "title": "North America",
+        "weight": 0,
+      },
+    ],
+    "drupal_id": 135,
+    "language": "en",
+    "location": Array [
+      Object {
+        "drupal_id": 13,
+        "icon": null,
+        "title": "Los Angeles Area",
+        "weight": 0,
+      },
+    ],
+    "office_hours": "<p>MON - FRI: 7:00AM - 9:00PM</p>
+
+<p>SAT:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8:00AM - 8:00PM</p>
+
+<p>SUN:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 8:00AM - 6:00PM</p>
+",
+    "title": "Woodland Hills",
+    "type": "office",
+  },
+  "officeError": false,
+}
+`;
+
+exports[`officeReducers Handles OfficeError action 1`] = `
+Object {
+  "office": undefined,
+  "officeError": true,
+}
+`;

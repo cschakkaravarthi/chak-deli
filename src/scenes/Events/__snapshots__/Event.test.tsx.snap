@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event compares ids 1`] = `
+<ForwardRef
+  className="content-full"
+  fluid={false}
+>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="p-0 mt-5"
+      md={12}
+    >
+      <ForwardRef />
+      <Unknown
+        AddToCalenderLink={[Function]}
+        SendInviteEventData={
+          Object {
+            "emailBody": "Hi%2C%20I%20thought%20you%20might%20be%20interested%20in%20this%20event.%20%20Would%20you%20like%20to%20join%20me%3F%0A%0A%20%20%20%20Start%20Date%3A%20%20September%2012%2C%202019%0A%0A%20%20%20%20End%20Date%3A%20%20September%2013%2C%202019%20%0A%0A%20%20%20%20Location%3A%20%20Over%20the%20Rainbow%0A%0AI%20look%20forward%20to%20your%20reply.%0A%0ARegards%2C%0A%0A",
+            "title": "Test 1",
+            "username": undefined,
+          }
+        }
+        categories={
+          Array [
+            Object {
+              "drupal_id": 46,
+              "icon": null,
+              "title": "Industry Events",
+              "weight": 1,
+            },
+          ]
+        }
+        content={
+          <div
+            className="position-relative"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Some body text</p>
+",
+              }
+            }
+          />
+        }
+        date="Sep 12, 2019 3:22 PM - Sep 13, 2019 3:30 AM"
+        imageUrl="undefined"
+        location="Over the Rainbow"
+        title="Test 1"
+        type="event"
+        variant="full"
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`Event renders with event 1`] = `
+<ForwardRef
+  className="content-full"
+  fluid={false}
+>
+  <ForwardRef
+    noGutters={false}
+  >
+    <ForwardRef
+      className="p-0 mt-5"
+      md={12}
+    >
+      <ForwardRef />
+      <Unknown
+        AddToCalenderLink={[Function]}
+        SendInviteEventData={
+          Object {
+            "emailBody": "Hi%2C%20I%20thought%20you%20might%20be%20interested%20in%20this%20event.%20%20Would%20you%20like%20to%20join%20me%3F%0A%0A%20%20%20%20Start%20Date%3A%20%20September%2012%2C%202019%0A%0A%20%20%20%20End%20Date%3A%20%20September%2013%2C%202019%20%0A%0A%20%20%20%20Location%3A%20%20Over%20the%20Rainbow%0A%0AI%20look%20forward%20to%20your%20reply.%0A%0ARegards%2C%0A%0A",
+            "title": "Test 1",
+            "username": undefined,
+          }
+        }
+        categories={
+          Array [
+            Object {
+              "drupal_id": 46,
+              "icon": null,
+              "title": "Industry Events",
+              "weight": 1,
+            },
+          ]
+        }
+        content={
+          <div
+            className="position-relative"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Some body text</p>
+",
+              }
+            }
+          />
+        }
+        date="Sep 12, 2019 3:22 PM - Sep 13, 2019 3:30 AM"
+        imageUrl="undefined"
+        location="Over the Rainbow"
+        title="Test 1"
+        type="event"
+        variant="full"
+      />
+    </ForwardRef>
+  </ForwardRef>
+</ForwardRef>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notificationReducers Handles loadNotifications action 1`] = `
+Object {
+  "notifications": undefined,
+}
+`;

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userProfileReducers Handles OrgChartResponseError action 1`] = `
+Object {
+  "chartDataError": true,
+  "fetchingMyContactsError": false,
+  "isFetchUserProfile": true,
+  "isFetchingMyContacts": true,
+  "isFetchingOrgChart": true,
+  "isUploading": false,
+  "isUserProfileUpdate": true,
+  "isUserProfileUpdateError": false,
+  "profileDataError": false,
+  "removeContactSucess": false,
+  "removeProfilePicSucess": false,
+  "uploadError": false,
+  "uploadSuccess": false,
+  "userContactList": Object {},
+  "userOrgChart": Object {},
+  "userProfileDetails": Object {},
+  "userProfilePicture": Object {},
+  "userProfileUpdateErrorMessage": "",
+}
+`;
+
+exports[`userProfileReducers Handles UserProfileResponseError action 1`] = `
+Object {
+  "chartDataError": false,
+  "fetchingMyContactsError": false,
+  "isFetchUserProfile": false,
+  "isFetchingMyContacts": true,
+  "isFetchingOrgChart": true,
+  "isUploading": false,
+  "isUserProfileUpdate": true,
+  "isUserProfileUpdateError": false,
+  "profileDataError": true,
+  "removeContactSucess": false,
+  "removeProfilePicSucess": false,
+  "uploadError": false,
+  "uploadSuccess": false,
+  "userContactList": Object {},
+  "userOrgChart": Object {},
+  "userProfileDetails": Object {},
+  "userProfilePicture": Object {},
+  "userProfileUpdateErrorMessage": "",
+}
+`;
+
+exports[`userProfileReducers Handles clearProfileData action 1`] = `
+Object {
+  "chartDataError": false,
+  "fetchingMyContactsError": false,
+  "isFetchUserProfile": true,
+  "isFetchingMyContacts": true,
+  "isFetchingOrgChart": true,
+  "isUploading": false,
+  "isUserProfileUpdate": true,
+  "isUserProfileUpdateError": false,
+  "profileDataError": false,
+  "removeContactSucess": false,
+  "removeProfilePicSucess": false,
+  "uploadError": false,
+  "uploadSuccess": false,
+  "userContactList": Object {},
+  "userOrgChart": Object {},
+  "userProfileDetails": Object {
+    "title": "",
+  },
+  "userProfilePicture": Object {},
+  "userProfileUpdateErrorMessage": "",
+}
+`;
+
+exports[`userProfileReducers Handles setProfileDetails action 1`] = `
+Object {
+  "chartDataError": false,
+  "fetchingMyContactsError": false,
+  "isFetchUserProfile": false,
+  "isFetchingMyContacts": true,
+  "isFetchingOrgChart": true,
+  "isUploading": false,
+  "isUserProfileUpdate": true,
+  "isUserProfileUpdateError": false,
+  "profileDataError": false,
+  "removeContactSucess": false,
+  "removeProfilePicSucess": false,
+  "uploadError": false,
+  "uploadSuccess": false,
+  "userContactList": Object {},
+  "userOrgChart": Object {},
+  "userProfileDetails": undefined,
+  "userProfilePicture": Object {},
+  "userProfileUpdateErrorMessage": "",
+}
+`;
+
+exports[`userProfileReducers Handles setUserOrgChart action 1`] = `
+Object {
+  "chartDataError": undefined,
+  "fetchingMyContactsError": false,
+  "isFetchUserProfile": true,
+  "isFetchingMyContacts": true,
+  "isFetchingOrgChart": undefined,
+  "isUploading": false,
+  "isUserProfileUpdate": true,
+  "isUserProfileUpdateError": false,
+  "profileDataError": false,
+  "removeContactSucess": false,
+  "removeProfilePicSucess": false,
+  "uploadError": false,
+  "uploadSuccess": false,
+  "userContactList": Object {},
+  "userOrgChart": undefined,
+  "userProfileDetails": Object {},
+  "userProfilePicture": Object {},
+  "userProfileUpdateErrorMessage": "",
+}
+`;
